@@ -3,13 +3,7 @@ import Link from "next/link";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 import type { Locale } from "@/lib/i18n";
 
-export function SiteFooter({
-  lang,
-  dict,
-}: {
-  lang: Locale;
-  dict: Dictionary;
-}) {
+export function SiteFooter({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   return (
     <footer className="border-t border-border-soft">
       <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 lg:px-12">
@@ -33,7 +27,6 @@ export function SiteFooter({
             {dict.nav.privacy}
           </Link>
         </nav>
-        <p className="text-center text-xs text-muted">{dict.footer.credit}</p>
       </div>
     </footer>
   );
