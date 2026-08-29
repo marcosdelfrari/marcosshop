@@ -1,8 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-/** VP9/WebM: Chrome, Firefox, Edge. QuickTime/MOV: Safari. */
 const AVATAR_WEBM = "/avatar.webm";
 const AVATAR_MOV = "/avatar.mov";
 const AVATAR_FALLBACK = "/avatar.png";
@@ -13,8 +12,20 @@ type AvatarVideoProps = {
   className?: string;
 };
 
+function prefersSafari(): boolean {
+  if (typeof navigator === "undefined") return true;
+  const ua = navigator.userAgent;
+  return /Safari/i.test(ua) && !/Chrome|Chromium|CriOS|Edg|OPR|Firefox/i.test(ua);
+}
+
 export function AvatarVideo({ className = DEFAULT_CLASS }: AvatarVideoProps) {
   const [useFallback, setUseFallback] = useState(false);
+  // Default to .mov (Safari / Memoji native alpha). Chrome switches to WebM after mount.
+  const [src, setSrc] = useState(AVATAR_MOV);
+
+  useEffect(() => {
+    if (!prefersSafari()) setSrc(AVATAR_WEBM);
+  }, []);
 
   if (useFallback) {
     return (
@@ -31,20 +42,18 @@ export function AvatarVideo({ className = DEFAULT_CLASS }: AvatarVideoProps) {
 
   return (
     <video
+      key={src}
       className={className}
+      src={src}
       width={180}
       height={180}
       autoPlay
       muted
       loop
       playsInline
-      preload="metadata"
-      poster={AVATAR_FALLBACK}
+      preload="auto"
       aria-label="Artist avatar"
       onError={() => setUseFallback(true)}
-    >
-      <source src={AVATAR_WEBM} type="video/webm; codecs=vp9" />
-      <source src={AVATAR_MOV} type='video/quicktime; codecs="hvc1"' />
-    </video>
+    />
   );
 }
