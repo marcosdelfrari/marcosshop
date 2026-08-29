@@ -20,9 +20,7 @@ export function AboutPreview({
     <section className="border-t border-border-soft pt-16">
       <div className="mx-auto flex max-w-md flex-col items-center gap-6 text-center">
         <FadeUp inView>
-          <div className="overflow-hidden rounded-full">
-            <AvatarVideo className="size-36 object-cover sm:size-40" />
-          </div>
+          <AvatarVideo />
         </FadeUp>
 
         <FadeUp inView delay={0.08}>

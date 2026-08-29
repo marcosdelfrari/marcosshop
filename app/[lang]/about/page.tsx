@@ -60,9 +60,7 @@ export default async function AboutPage({
       <article className="mx-auto max-w-2xl">
         <div className="flex flex-col items-center gap-8 text-center sm:items-start sm:text-left">
           <FadeUp inView>
-            <div className="overflow-hidden rounded-full">
-              <AvatarVideo className="size-40 object-cover sm:size-48" />
-            </div>
+            <AvatarVideo className="h-[180px] w-[180px] sm:h-[216px] sm:w-[216px]" />
           </FadeUp>
 
           <FadeUp inView delay={0.08} className="space-y-3">

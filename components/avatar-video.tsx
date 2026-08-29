@@ -7,7 +7,13 @@ const AVATAR_WEBM = "/avatar.webm";
 const AVATAR_MOV = "/avatar.mov";
 const AVATAR_FALLBACK = "/avatar.png";
 
-export function AvatarVideo({ className }: { className?: string }) {
+const DEFAULT_CLASS = "h-[180px] w-[180px]";
+
+type AvatarVideoProps = {
+  className?: string;
+};
+
+export function AvatarVideo({ className = DEFAULT_CLASS }: AvatarVideoProps) {
   const [useFallback, setUseFallback] = useState(false);
 
   if (useFallback) {
@@ -17,8 +23,8 @@ export function AvatarVideo({ className }: { className?: string }) {
         src={AVATAR_FALLBACK}
         alt="Artist avatar"
         className={className}
-        width={640}
-        height={480}
+        width={180}
+        height={180}
       />
     );
   }
@@ -26,6 +32,8 @@ export function AvatarVideo({ className }: { className?: string }) {
   return (
     <video
       className={className}
+      width={180}
+      height={180}
       autoPlay
       muted
       loop
