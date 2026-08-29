@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Marcos Lucas · Original Prints & Handmade Works",
-    "description": "Original woodcuts, linoleum prints and handmade paintings by Marcos Lucas. Unique pieces shipped across Europe. Inquire via WhatsApp."
+    "title": "Marcos Lucas · Conceptual Indie Art & Hand-Pulled Prints",
+    "description": "Artist-run shop for conceptual, alternative indie works — hand-carved woodcuts, linoleum prints and acrylic paintings. Unique pieces from Brazil, shipped across Europe."
   },
   "nav": {
     "works": "Works",
@@ -11,10 +11,10 @@
   },
   "hero": {
     "intro": "Hi, my name is {name}.",
-    "kicker": "Shop",
-    "titleStrong": "Few pieces.",
-    "titleSoft": "Made by hand.",
-    "tagline": "Original woodcuts, linoleum prints and handmade works. A light side of living, not a career plan.",
+    "kicker": "Artist-run shop",
+    "titleStrong": "Conceptual works.",
+    "titleSoft": "Indie, by hand.",
+    "tagline": "A small catalogue of alternative art — folklore, mood, contradiction. No gallery roster, no open editions. Just pieces carved, pulled and painted by hand.",
     "cta": "View works"
   },
   "works": {
@@ -48,8 +48,8 @@
   "about": {
     "title": "Who I am",
     "kicker": "About",
-    "body": "Brazilian front-end engineer from Belo Horizonte, with a playful side that makes art by hand.",
-    "homeIntro": "Hi, I'm {name}. A Brazilian who plays with life and art. This shop is that lighter side: making things by hand, just for the joy of it.",
+    "body": "Brazilian conceptual artist and front-end engineer from Belo Horizonte — running an indie, artist-led shop for hand-made alternative works.",
+    "homeIntro": "Hi, I'm {name}. I make conceptual, indie art by hand — prints and paintings that sit outside the commercial circuit. This shop is that side of me: small, direct, personal.",
     "readMore": "Learn more about me",
     "intro": "I'm {age}, Brazilian, from Belo Horizonte. Professionally I'm a front-end software engineer. You can find that side of me at {portfolio}.",
     "paragraphs": [
@@ -71,6 +71,14 @@
   },
   "faq": {
     "title": "Frequently asked questions"
+  },
+  "positioning": {
+    "title": "Conceptual indie art, without the gallery gate",
+    "paragraphs": [
+      "This is not a commercial brand or a white-cube gallery. It is an artist-run outlet for conceptual, alternative works — woodcuts, linoleum prints and paintings where the idea weighs as much as the object.",
+      "Indie, here, means independent in process and scale: carved blocks, hand-pulled impressions, unique pieces. The shop exists so collectors in Europe and elsewhere can reach the work directly — through conversation, not a sales funnel.",
+      "Each piece in the catalogue is authored and finite. If you are looking for conceptual printmaking, Brazilian contemporary art with an underground sensibility, or simply something that was not mass-produced, you are in the right place."
+    ]
   },
   "privacy": {
     "title": "Privacy Policy",

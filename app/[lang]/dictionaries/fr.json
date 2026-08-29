@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Marcos Lucas · Estampes originales et œuvres faites main",
-    "description": "Xylographies originales, linogravures et peintures faites main par Marcos Lucas. Pièces uniques expédiées en Europe. Demande via WhatsApp."
+    "title": "Marcos Lucas · Art conceptuel indie & estampes originales",
+    "description": "Boutique d'artiste pour art conceptuel indie alternatif — xylographies, linogravures et peintures faites main. Pièces uniques du Brésil, expédiées en Europe."
   },
   "nav": {
     "works": "Œuvres",
@@ -11,10 +11,10 @@
   },
   "hero": {
     "intro": "Bonjour, je m'appelle {name}.",
-    "kicker": "Boutique",
-    "titleStrong": "Peu de pièces.",
-    "titleSoft": "Faites à la main.",
-    "tagline": "Xylographies originales, linogravures et œuvres faites main. Un côté léger de la vie, pas un plan de carrière.",
+    "kicker": "Boutique d'artiste",
+    "titleStrong": "Œuvres conceptuelles.",
+    "titleSoft": "Indie, à la main.",
+    "tagline": "Un petit catalogue d'art alternatif — folklore, atmosphère, contradiction. Pas de roster de galerie, pas d'éditions ouvertes. Juste des pièces gravées, tirées et peintes à la main.",
     "cta": "Voir les œuvres"
   },
   "works": {
@@ -48,8 +48,8 @@
   "about": {
     "title": "Qui suis-je",
     "kicker": "À propos",
-    "body": "Ingénieur front-end brésilien de Belo Horizonte, avec un côté ludique qui crée à la main.",
-    "homeIntro": "Bonjour, je suis {name}. Un Brésilien qui joue avec la vie et l'art. Cette boutique, c'est ce côté plus léger : faire des choses à la main, pour le plaisir.",
+    "body": "Artiste conceptuel brésilien et ingénieur front-end de Belo Horizonte — avec une boutique indie dirigée par l'artiste.",
+    "homeIntro": "Bonjour, je suis {name}. Je fais de l'art conceptuel et indie à la main — estampes et peintures en dehors du circuit commercial. Cette boutique, c'est ce côté de moi : petit, direct, personnel.",
     "readMore": "En savoir plus sur moi",
     "intro": "J'ai {age} ans, je suis brésilien et originaire de Belo Horizonte. Professionnellement, je suis ingénieur logiciel front-end. Cette part de moi est sur {portfolio}.",
     "paragraphs": [
@@ -71,6 +71,14 @@
   },
   "faq": {
     "title": "Questions fréquentes"
+  },
+  "positioning": {
+    "title": "Art conceptuel indie, sans la porte de la galerie",
+    "paragraphs": [
+      "Ce n'est ni une marque commerciale ni une galerie white cube. C'est un espace d'artiste pour des œuvres conceptuelles et alternatives — xylographies, linogravures et peintures où l'idée pèse autant que l'objet.",
+      "Indie, ici, signifie indépendant dans le processus et l'échelle : blocs gravés, épreuves tirées à la main, pièces uniques. La boutique existe pour que les collectionneurs en Europe et ailleurs accèdent à l'œuvre directement — par la conversation, pas par un entonnoir de vente.",
+      "Chaque pièce du catalogue est signée et finie. Si vous cherchez une gravure conceptuelle, de l'art contemporain brésilien à la sensibilité underground, ou simplement quelque chose qui n'a pas été produit en masse, vous êtes au bon endroit."
+    ]
   },
   "privacy": {
     "title": "Politique de confidentialité",

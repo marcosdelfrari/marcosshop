@@ -19,6 +19,16 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
         "Every listed work is an original handmade piece. Woodcuts and linoleum prints are carved and pulled by hand; paintings are unique acrylic works on canvas. There are no open-edition reproductions in this shop.",
     },
     {
+      question: "What is conceptual indie art?",
+      answer:
+        "Conceptual, here, means the idea carries the work — folklore, social mood, contradiction, the arc of happiness. Indie means artist-run: no gallery roster, no mass production, no commercial brand behind the catalogue. Alternative because it sits outside the mainstream art market — a direct studio outlet from Belo Horizonte to collectors in Europe and elsewhere.",
+    },
+    {
+      question: "Is this a gallery or a brand?",
+      answer:
+        "Neither, really. This is an artist-run shop — a personal channel between Marcos Lucas and whoever connects with the work. You inquire directly on WhatsApp; there is no intermediary, no drop-shipping, no reproduction line. It is closer to a small indie label than to a gallery or lifestyle brand.",
+    },
+    {
       question: "How do I buy a work from this shop?",
       answer:
         "Choose a piece, tap “Inquire on WhatsApp”, and send your name and contact details. Marcos replies personally to confirm availability, price in EUR, and shipping to your European address.",
@@ -35,7 +45,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     },
     {
       question: "Who is Marcos Lucas?",
-      answer: `Marcos Lucas is a Brazilian visual artist and front-end engineer from Belo Horizonte. This shop is his personal studio outlet for original prints and paintings. More about his professional work is at ${siteConfig.portfolioUrl}.`,
+      answer: `Marcos Lucas is a Brazilian conceptual artist and front-end engineer from Belo Horizonte. This shop is his indie, artist-run outlet for alternative prints and paintings — not a gallery representation. More about his professional work is at ${siteConfig.portfolioUrl}.`,
     },
   ],
   es: [
@@ -48,6 +58,16 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
       question: "¿Son grabados originales o reproducciones?",
       answer:
         "Cada obra publicada es una pieza original hecha a mano. Las xilografías y linoleos se tallan e imprimen manualmente; las pinturas son acrílicos únicos sobre tela. No hay reproducciones en edición abierta.",
+    },
+    {
+      question: "¿Qué es el arte conceptual indie?",
+      answer:
+        "Conceptual, aquí, significa que la idea sostiene la obra — folclore, atmósfera social, contradicción, el arco de la felicidad. Indie significa tienda del artista: sin roster de galería, sin producción en masa, sin marca comercial detrás del catálogo. Alternativo porque queda fuera del mercado artístico mainstream — un espacio de estudio directo desde Belo Horizonte hacia coleccionistas en Europa y otros lugares.",
+    },
+    {
+      question: "¿Es una galería o una marca?",
+      answer:
+        "Ninguna de las dos, en realidad. Es una tienda del artista — un canal personal entre Marcos Lucas y quien conecta con la obra. Consultas directamente por WhatsApp; no hay intermediario, ni dropshipping, ni línea de reproducción. Está más cerca de un sello indie pequeño que de una galería o una marca lifestyle.",
     },
     {
       question: "¿Cómo compro una obra?",
@@ -66,7 +86,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     },
     {
       question: "¿Quién es Marcos Lucas?",
-      answer: `Marcos Lucas es artista visual e ingeniero front-end brasileño, de Belo Horizonte. Esta tienda es su espacio personal para grabados y pinturas originales. Más sobre su trabajo profesional en ${siteConfig.portfolioUrl}.`,
+      answer: `Marcos Lucas es artista conceptual e ingeniero front-end brasileño, de Belo Horizonte. Esta tienda es su espacio indie dirigido por el artista para grabados y pinturas alternativas — no una representación de galería. Más sobre su trabajo profesional en ${siteConfig.portfolioUrl}.`,
     },
   ],
   fr: [
@@ -79,6 +99,16 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
       question: "S'agit-il d'estampes originales ou de reproductions ?",
       answer:
         "Chaque œuvre listée est une pièce originale faite main. Xylographies et linogravures sont gravées et tirées à la main ; les peintures sont des acryliques uniques sur toile. Pas de reproductions en édition ouverte.",
+    },
+    {
+      question: "Qu'est-ce que l'art conceptuel indie ?",
+      answer:
+        "Conceptuel, ici, signifie que l'idée porte l'œuvre — folklore, humeur sociale, contradiction, l'arc du bonheur. Indie signifie boutique d'artiste : pas de roster de galerie, pas de production de masse, pas de marque commerciale derrière le catalogue. Alternatif parce que cela se situe en dehors du marché de l'art mainstream — un atelier direct de Belo Horizonte vers les collectionneurs en Europe et ailleurs.",
+    },
+    {
+      question: "Est-ce une galerie ou une marque ?",
+      answer:
+        "Ni l'un ni l'autre, vraiment. C'est une boutique d'artiste — un canal personnel entre Marcos Lucas et celles et ceux qui se connectent à l'œuvre. Vous écrivez directement sur WhatsApp ; pas d'intermédiaire, pas de dropshipping, pas de ligne de reproduction. C'est plus proche d'un petit label indie que d'une galerie ou d'une marque lifestyle.",
     },
     {
       question: "Comment acheter une œuvre ?",
@@ -97,7 +127,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     },
     {
       question: "Qui est Marcos Lucas ?",
-      answer: `Marcos Lucas est artiste visuel et ingénieur front-end brésilien, originaire de Belo Horizonte. Cette boutique est son espace personnel pour estampes et peintures originales. En savoir plus sur ${siteConfig.portfolioUrl}.`,
+      answer: `Marcos Lucas est artiste conceptuel et ingénieur front-end brésilien, originaire de Belo Horizonte. Cette boutique est son espace indie dirigé par l'artiste pour estampes et peintures alternatives — pas une représentation en galerie. En savoir plus sur ${siteConfig.portfolioUrl}.`,
     },
   ],
   de: [
@@ -110,6 +140,16 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
       question: "Sind das Originaldrucke oder Reproduktionen?",
       answer:
         "Jedes gelistete Werk ist ein handgemachtes Original. Holzschnitte und Linoldrucke werden geschnitzt und von Hand gedruckt; Gemälde sind einmalige Acrylarbeiten auf Leinwand. Es gibt keine offenen Auflagen-Reproduktionen.",
+    },
+    {
+      question: "Was ist konzeptuelle Indie-Kunst?",
+      answer:
+        "Konzeptuell heißt hier: Die Idee trägt das Werk — Folklore, gesellschaftliche Stimmung, Widerspruch, der Bogen des Glücks. Indie bedeutet künstlergeführter Shop: kein Galerie-Roster, keine Massenproduktion, keine Commercial Brand hinter dem Katalog. Alternativ, weil es außerhalb des Mainstream-Kunstmarkts steht — ein direktes Atelier von Belo Horizonte zu Sammlern in Europa und anderswo.",
+    },
+    {
+      question: "Ist das eine Galerie oder eine Marke?",
+      answer:
+        "Weder noch, eigentlich. Es ist ein Künstler-Shop — ein persönlicher Kanal zwischen Marcos Lucas und allen, die sich mit dem Werk verbinden. Sie fragen direkt per WhatsApp an; kein Mittler, kein Dropshipping, keine Reproduktionslinie. Es ist näher an einem kleinen Indie-Label als an einer Galerie oder Lifestyle-Marke.",
     },
     {
       question: "Wie kaufe ich ein Werk?",
@@ -128,7 +168,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     },
     {
       question: "Wer ist Marcos Lucas?",
-      answer: `Marcos Lucas ist brasilianischer visueller Künstler und Front-end-Entwickler aus Belo Horizonte. Dieser Shop ist sein persönliches Atelier für Originaldrucke und Gemälde. Mehr unter ${siteConfig.portfolioUrl}.`,
+      answer: `Marcos Lucas ist brasilianischer Konzeptkünstler und Front-end-Entwickler aus Belo Horizonte. Dieser Shop ist sein indie, künstlergeführter Raum für alternative Drucke und Gemälde — keine Galerievertretung. Mehr unter ${siteConfig.portfolioUrl}.`,
     },
   ],
 };

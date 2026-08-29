@@ -9,7 +9,9 @@ import { getWorkCover, getWorkImages } from "@/lib/works";
 export const SITE_NAME = siteConfig.name;
 
 export function normalizeSiteUrl(url: string): string {
-  return url.replace(/\/+$/, "");
+  const trimmed = url.trim().replace(/\/+$/, "");
+  if (!trimmed) return "https://shop.marcosdelfrari.com";
+  return trimmed.startsWith("http") ? trimmed : `https://${trimmed}`;
 }
 
 export const SITE_URL = normalizeSiteUrl(siteConfig.url);
@@ -60,6 +62,7 @@ type PageMetadataOptions = {
   type?: "website" | "article" | "profile";
   ogImagePath?: string;
   noindex?: boolean;
+  keywords?: string[];
 };
 
 export function buildPageMetadata({
@@ -70,6 +73,7 @@ export function buildPageMetadata({
   type = "website",
   ogImagePath,
   noindex = false,
+  keywords,
 }: PageMetadataOptions): Metadata {
   const alternates = buildAlternates(locale, pathSuffix);
   const ogImage = ogImagePath
@@ -79,6 +83,7 @@ export function buildPageMetadata({
   return {
     title,
     description,
+    ...(keywords?.length ? { keywords } : {}),
     alternates,
     openGraph: {
       title,
@@ -125,7 +130,12 @@ export function buildHomeMetadata(
   title: string,
   description: string,
 ): Metadata {
-  return buildPageMetadata({ locale, title, description });
+  return buildPageMetadata({
+    locale,
+    title,
+    description,
+    keywords: siteKeywords[locale],
+  });
 }
 
 export function buildAboutMetadata(
@@ -171,15 +181,19 @@ export function buildWebSiteJsonLd(locale: Locale): JsonLd {
   };
 }
 
-export function buildOrganizationJsonLd(): JsonLd {
+export function buildOrganizationJsonLd(locale: Locale): JsonLd {
   return {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "OnlineStore"],
     "@id": `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: SITE_URL,
+    description: siteDescriptions[locale],
+    slogan: siteTaglines[locale],
     logo: absoluteUrl("/works/oni.webp"),
     sameAs: [siteConfig.portfolioUrl, siteConfig.social.instagram],
+    areaServed: ["European Union", "United Kingdom"],
+    knowsAbout: knowsAbout[locale],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "sales",
@@ -249,7 +263,8 @@ export function buildWorkJsonLd(
     description: truncateDescription(content.description, 500),
     url: absoluteUrl(localizedPath(locale, `works/${work.slug}`)),
     image: images,
-    artMedium: mediumLabel,
+    genre: workGenres[locale],
+    artform: mediumLabel,
     dateCreated: String(work.year),
     width: work.dimensions,
     creator: { "@id": `${SITE_URL}/#person` },
@@ -301,30 +316,128 @@ export function buildFaqJsonLd(
   };
 }
 
+const workGenres: Record<Locale, string> = {
+  en: "Conceptual art",
+  es: "Arte conceptual",
+  fr: "Art conceptuel",
+  de: "Konzeptuelle Kunst",
+};
+
 const siteDescriptions: Record<Locale, string> = {
-  en: "Original woodcuts, linoleum prints and handmade paintings by Marcos Lucas. Unique pieces shipped across Europe. Inquire via WhatsApp.",
-  es: "Xilografías originales, grabados en linóleo y pinturas hechas a mano por Marcos Lucas. Piezas únicas con envío a Europa. Consulta por WhatsApp.",
-  fr: "Xylographies originales, linogravures et peintures faites main par Marcos Lucas. Pièces uniques expédiées en Europe. Demande via WhatsApp.",
-  de: "Originale Holzschnitte, Linoldrucke und handgemalte Werke von Marcos Lucas. Einzelstücke mit Versand in Europa. Anfrage per WhatsApp.",
+  en: "Artist-run shop for conceptual, alternative indie art — hand-carved woodcuts, linoleum prints and acrylic paintings by Marcos Lucas. Unique works from Brazil, shipped across Europe.",
+  es: "Tienda del artista de arte conceptual indie alternativa — xilografías, linóleos y pinturas hechas a mano por Marcos Lucas. Obras únicas desde Brasil, con envío a Europa.",
+  fr: "Boutique d'artiste pour art conceptuel indie alternatif — xylographies, linogravures et peintures faites main par Marcos Lucas. Pièces uniques du Brésil, expédiées en Europe.",
+  de: "Künstler-Shop für konzeptuelle, alternative Indie-Kunst — Holzschnitte, Linoldrucke und Acrylgemälde von Marcos Lucas. Einzelwerke aus Brasilien, Versand in Europa.",
+};
+
+const siteTaglines: Record<Locale, string> = {
+  en: "Conceptual indie art — few pieces, made by hand.",
+  es: "Arte conceptual indie — pocas piezas, hechas a mano.",
+  fr: "Art conceptuel indie — peu de pièces, faites à la main.",
+  de: "Konzeptuelle Indie-Kunst — wenige Stücke, von Hand gemacht.",
+};
+
+const siteKeywords: Record<Locale, string[]> = {
+  en: [
+    "conceptual art",
+    "indie art",
+    "alternative art",
+    "artist-run shop",
+    "original woodcut",
+    "linoleum print",
+    "hand-pulled print",
+    "Brazilian artist",
+    "contemporary printmaking",
+    "buy art Europe",
+  ],
+  es: [
+    "arte conceptual",
+    "arte indie",
+    "arte alternativo",
+    "tienda del artista",
+    "xilografía original",
+    "grabado en linóleo",
+    "artista brasileño",
+    "grabado contemporáneo",
+    "comprar arte Europa",
+  ],
+  fr: [
+    "art conceptuel",
+    "art indie",
+    "art alternatif",
+    "boutique d'artiste",
+    "xylographie originale",
+    "linogravure",
+    "artiste brésilien",
+    "estampe contemporaine",
+    "acheter art Europe",
+  ],
+  de: [
+    "konzeptuelle kunst",
+    "indie kunst",
+    "alternative kunst",
+    "künstler shop",
+    "originaler holzschnitt",
+    "linoldruck",
+    "brasilianischer künstler",
+    "zeitgenössische druckgrafik",
+    "kunst kaufen europa",
+  ],
 };
 
 const collectionTitles: Record<Locale, string> = {
-  en: "Original prints & handmade works",
-  es: "Grabados originales y obras hechas a mano",
-  fr: "Estampes originales et œuvres faites main",
-  de: "Originale Drucke & handgemachte Werke",
+  en: "Conceptual indie art — original prints & paintings",
+  es: "Arte conceptual indie — grabados y pinturas originales",
+  fr: "Art conceptuel indie — estampes et peintures originales",
+  de: "Konzeptuelle Indie-Kunst — Originaldrucke & Gemälde",
 };
 
 const jobTitles: Record<Locale, string> = {
-  en: "Visual artist & front-end engineer",
-  es: "Artista visual e ingeniero front-end",
-  fr: "Artiste visuel et ingénieur front-end",
-  de: "Visueller Künstler & Front-end-Entwickler",
+  en: "Conceptual artist & front-end engineer",
+  es: "Artista conceptual e ingeniero front-end",
+  fr: "Artiste conceptuel et ingénieur front-end",
+  de: "Konzeptkünstler & Front-end-Entwickler",
 };
 
 const knowsAbout: Record<Locale, string[]> = {
-  en: ["Woodcut", "Linoleum printmaking", "Acrylic painting", "Japanese folklore"],
-  es: ["Xilografía", "Grabado en linóleo", "Pintura acrílica", "Folclore japonés"],
-  fr: ["Xylographie", "Linogravure", "Peinture acrylique", "Folklore japonais"],
-  de: ["Holzschnitt", "Linoldruck", "Acrylmalerei", "Japanische Folklore"],
+  en: [
+    "Conceptual art",
+    "Indie art",
+    "Alternative art",
+    "Woodcut printmaking",
+    "Linoleum printmaking",
+    "Acrylic painting",
+    "Japanese folklore",
+    "Brazilian contemporary art",
+  ],
+  es: [
+    "Arte conceptual",
+    "Arte indie",
+    "Arte alternativo",
+    "Xilografía",
+    "Grabado en linóleo",
+    "Pintura acrílica",
+    "Folclore japonés",
+    "Arte contemporáneo brasileño",
+  ],
+  fr: [
+    "Art conceptuel",
+    "Art indie",
+    "Art alternatif",
+    "Xylographie",
+    "Linogravure",
+    "Peinture acrylique",
+    "Folklore japonais",
+    "Art contemporain brésilien",
+  ],
+  de: [
+    "Konzeptuelle Kunst",
+    "Indie-Kunst",
+    "Alternative Kunst",
+    "Holzschnitt",
+    "Linoldruck",
+    "Acrylmalerei",
+    "Japanische Folklore",
+    "Brasilianische zeitgenössische Kunst",
+  ],
 };

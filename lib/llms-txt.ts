@@ -5,10 +5,12 @@ import { works } from "@/lib/works";
 
 export function buildLlmsTxt(): string {
   const lines: string[] = [
-    `# ${SITE_NAME} — Original Prints & Handmade Art`,
+    `# ${SITE_NAME} — Conceptual Indie Art`,
     "",
-    "> Personal studio shop for original woodcuts, linoleum prints and acrylic paintings.",
+    "> Artist-run shop for conceptual, alternative indie works.",
+    "> Hand-carved woodcuts, linoleum prints and acrylic paintings.",
     "> Artist: Marcos Lucas (Belo Horizonte, Brazil). Ships unframed to Europe.",
+    "> Not a gallery roster or commercial brand — direct studio outlet.",
     "",
     "## Site",
     "",
@@ -62,6 +64,8 @@ export function buildLlmsTxt(): string {
     "",
     "## FAQ topics (see homepage JSON-LD FAQPage)",
     "",
+    "- Conceptual indie alternative art positioning",
+    "- Artist-run shop vs gallery or brand",
     "- Shipping original art to Europe (UK & EU)",
     "- Original handmade prints vs reproductions",
     "- Purchase via WhatsApp inquiry",

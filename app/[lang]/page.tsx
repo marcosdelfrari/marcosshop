@@ -4,6 +4,7 @@ import { getDictionary } from "@/app/[lang]/dictionaries";
 import { AboutPreview } from "@/components/about-preview";
 import { HomeFaqSection } from "@/components/home-faq-section";
 import { HomeHero } from "@/components/home-hero";
+import { HomePositioning } from "@/components/home-positioning";
 import { JsonLd } from "@/components/json-ld";
 import { WorkCard } from "@/components/work-card";
 import { getHomeFaqs } from "@/lib/faq";
@@ -30,7 +31,7 @@ export default async function HomePage({
       <JsonLd
         data={[
           buildWebSiteJsonLd(lang as Locale),
-          buildOrganizationJsonLd(),
+          buildOrganizationJsonLd(lang as Locale),
           buildCollectionPageJsonLd(lang as Locale, works),
           buildFaqJsonLd(faqs),
         ]}
@@ -38,6 +39,8 @@ export default async function HomePage({
 
       <div className="space-y-20">
         <HomeHero lang={lang as Locale} dict={dict} />
+
+        <HomePositioning dict={dict} />
 
         <section id="works" className="scroll-mt-8 space-y-2">
           <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
