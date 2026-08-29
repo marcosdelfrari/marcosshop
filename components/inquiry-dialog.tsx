@@ -7,6 +7,7 @@ import { useId, useRef, useState } from "react";
 
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 import type { Locale } from "@/lib/i18n";
+import { executeRecaptcha, isRecaptchaEnabled, preloadRecaptcha } from "@/lib/recaptcha-client";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 const defaultTriggerClassName =
@@ -45,6 +46,7 @@ export function InquiryDialog({
 
   function open() {
     setError(null);
+    preloadRecaptcha();
     dialogRef.current?.showModal();
     setVisible(true);
   }
@@ -74,17 +76,26 @@ export function InquiryDialog({
     };
 
     try {
+      let recaptchaToken: string | undefined;
+      if (isRecaptchaEnabled()) {
+        recaptchaToken = await executeRecaptcha("inquiry");
+      }
+
       const response = await fetch("/api/inquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({ ...payload, recaptchaToken }),
       });
 
       if (!response.ok) {
         const data = (await response.json().catch(() => null)) as {
           error?: string;
         } | null;
-        throw new Error(data?.error ?? labels.submitError);
+        const message = data?.error;
+        if (message === "reCAPTCHA verification failed") {
+          throw new Error(labels.captchaError);
+        }
+        throw new Error(message ?? labels.submitError);
       }
 
       const url = buildWhatsAppUrl(payload);
@@ -197,6 +208,30 @@ export function InquiryDialog({
           {error ? (
             <p className="text-sm text-red-600 dark:text-red-400" role="alert">
               {error}
+            </p>
+          ) : null}
+
+          {isRecaptchaEnabled() ? (
+            <p className="text-[11px] leading-relaxed text-muted">
+              {labels.recaptchaNotice}{" "}
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2"
+              >
+                {labels.recaptchaPrivacy}
+              </a>{" "}
+              {labels.recaptchaAnd}{" "}
+              <a
+                href="https://policies.google.com/terms"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2"
+              >
+                {labels.recaptchaTerms}
+              </a>
+              .
             </p>
           ) : null}
 

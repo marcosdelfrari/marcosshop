@@ -43,6 +43,11 @@
     "submit": "Continuer",
     "submitting": "Envoi…",
     "submitError": "Impossible d'envoyer votre demande. Veuillez réessayer.",
+    "captchaError": "La vérification de sécurité a échoué. Veuillez réessayer.",
+    "recaptchaNotice": "Ce formulaire est protégé par reCAPTCHA et les",
+    "recaptchaPrivacy": "Règles de confidentialité",
+    "recaptchaAnd": "et les",
+    "recaptchaTerms": "Conditions d'utilisation",
     "cancel": "Annuler",
     "required": "Champ obligatoire",
     "privacyNotice": "En continuant, vos coordonnées sont envoyées par e-mail comme demande d'achat et vous pouvez continuer sur WhatsApp. Consultez notre"

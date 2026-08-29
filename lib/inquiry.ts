@@ -7,6 +7,7 @@ export type InquiryRequest = {
   workTitle: string;
   workSlug: string;
   locale: Locale;
+  recaptchaToken?: string;
 };
 
 export function parseInquiryRequest(body: unknown): InquiryRequest | null {
@@ -22,6 +23,10 @@ export function parseInquiryRequest(body: unknown): InquiryRequest | null {
     typeof record.workSlug === "string" ? record.workSlug.trim() : "";
   const locale =
     typeof record.locale === "string" ? record.locale.trim() : "";
+  const recaptchaToken =
+    typeof record.recaptchaToken === "string"
+      ? record.recaptchaToken.trim()
+      : undefined;
 
   if (!name || !email || !phone || !workTitle || !workSlug || !locale) {
     return null;
@@ -29,5 +34,13 @@ export function parseInquiryRequest(body: unknown): InquiryRequest | null {
 
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return null;
 
-  return { name, email, phone, workTitle, workSlug, locale: locale as Locale };
+  return {
+    name,
+    email,
+    phone,
+    workTitle,
+    workSlug,
+    locale: locale as Locale,
+    recaptchaToken,
+  };
 }

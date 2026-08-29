@@ -43,6 +43,11 @@
     "submit": "Continuar",
     "submitting": "Enviando…",
     "submitError": "No se pudo enviar tu solicitud. Inténtalo de nuevo.",
+    "captchaError": "La verificación de seguridad falló. Inténtalo de nuevo.",
+    "recaptchaNotice": "Este formulario está protegido por reCAPTCHA y se aplican la",
+    "recaptchaPrivacy": "Política de Privacidad",
+    "recaptchaAnd": "y los",
+    "recaptchaTerms": "Términos del Servicio",
     "cancel": "Cancelar",
     "required": "Campo obligatorio",
     "privacyNotice": "Al continuar, tus datos se envían por correo como solicitud de compra y puedes continuar en WhatsApp. Consulta nuestra"

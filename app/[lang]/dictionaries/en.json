@@ -43,6 +43,11 @@
     "submit": "Continue",
     "submitting": "Sending…",
     "submitError": "Could not send your request. Please try again.",
+    "captchaError": "Security verification failed. Please try again.",
+    "recaptchaNotice": "This form is protected by reCAPTCHA and the Google",
+    "recaptchaPrivacy": "Privacy Policy",
+    "recaptchaAnd": "and",
+    "recaptchaTerms": "Terms of Service",
     "cancel": "Cancel",
     "required": "Required field",
     "privacyNotice": "By continuing, your details are emailed as a purchase request and you may continue on WhatsApp. See our"

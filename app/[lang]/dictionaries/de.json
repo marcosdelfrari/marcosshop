@@ -43,6 +43,11 @@
     "submit": "Weiter",
     "submitting": "Wird gesendet…",
     "submitError": "Anfrage konnte nicht gesendet werden. Bitte erneut versuchen.",
+    "captchaError": "Sicherheitsüberprüfung fehlgeschlagen. Bitte erneut versuchen.",
+    "recaptchaNotice": "Dieses Formular ist durch reCAPTCHA geschützt. Es gelten die",
+    "recaptchaPrivacy": "Datenschutzerklärung",
+    "recaptchaAnd": "und die",
+    "recaptchaTerms": "Nutzungsbedingungen",
     "cancel": "Abbrechen",
     "required": "Pflichtfeld",
     "privacyNotice": "Mit dem Fortfahren werden Ihre Daten per E-Mail als Kaufanfrage gesendet und Sie können auf WhatsApp fortfahren. Siehe unsere"
