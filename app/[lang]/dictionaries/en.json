@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Marcos Lucas · Original Prints & Handmade Works",
+    "description": "Original woodcuts, linoleum prints and handmade works. Inquire via WhatsApp for unique and limited pieces."
+  },
+  "nav": {
+    "works": "Works",
+    "about": "Who I am",
+    "contact": "Contact"
+  },
+  "hero": {
+    "intro": "Hi, my name is {name}.",
+    "kicker": "Shop",
+    "titleStrong": "Few pieces.",
+    "titleSoft": "Made by hand.",
+    "tagline": "Original woodcuts, linoleum prints and handmade works. A light side of living, not a career plan.",
+    "cta": "View works"
+  },
+  "works": {
+    "title": "Works",
+    "viewAll": "See all works",
+    "viewWork": "View work",
+    "inquire": "Inquire on WhatsApp",
+    "unique": "Unique",
+    "edition": "Edition",
+    "unavailable": "Unavailable",
+    "medium": "Medium",
+    "price": "Price",
+    "mediums": {
+      "woodcut": "Woodcut",
+      "linoleum": "Linoleum",
+      "handmade": "Handmade",
+      "acrylic": "Acrylic on canvas"
+    }
+  },
+  "inquiry": {
+    "title": "Inquire about this work",
+    "subtitle": "Leave your details and continue on WhatsApp to arrange availability and shipping.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "submit": "Continue on WhatsApp",
+    "cancel": "Cancel",
+    "required": "Required field"
+  },
+  "about": {
+    "title": "Who I am",
+    "kicker": "About",
+    "body": "Brazilian front-end engineer from Belo Horizonte, with a playful side that makes art by hand.",
+    "homeIntro": "Hi, I'm {name}. A Brazilian who plays with life and art. This shop is that lighter side: making things by hand, just for the joy of it.",
+    "readMore": "Learn more about me",
+    "intro": "I'm {age}, Brazilian, from Belo Horizonte. Professionally I'm a front-end software engineer. You can find that side of me at {portfolio}.",
+    "paragraphs": [
+      "This space, the prints and the handmade pieces, is more of a playful way to live. Not a second career, just curiosity and craft.",
+      "Over the years I've made authored works in different forms, taken part in theatre workshops at Pena Escola Arena, and stayed curious about social sciences and cultural production.",
+      "I like learning and exploring what life puts in front of me. I have my own way of seeing the world, and sometimes that ends up on paper."
+    ],
+    "contact": "Prefer a direct conversation? Message me on WhatsApp. I reply personally."
+  },
+  "footer": {
+    "credit": ""
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "locale": {
+    "label": "Language"
+  }
+}

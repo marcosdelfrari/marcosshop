@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#141414"/>
+  <path d="M80 500 Q200 200 400 500 T720 500" stroke="#e8e2d6" stroke-width="4" fill="none"/>
+  <path d="M80 560 Q240 320 400 560 T720 560" stroke="#e8e2d6" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M80 620 Q280 400 400 620 T720 620" stroke="#e8e2d6" stroke-width="1.5" fill="none" opacity="0.35"/>
+  <text x="400" y="920" text-anchor="middle" fill="#8a857c" font-family="system-ui,sans-serif" font-size="22">River Mark</text>
+</svg>

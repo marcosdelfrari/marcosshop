@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf9f7;
+  --background-elevated: #ffffff;
+  --foreground: #141414;
+  --muted: #5c5c5c;
+  --border: #1a1a1a;
+  --border-soft: rgba(20, 20, 20, 0.1);
+  --accent: #141414;
+  --accent-fg: #ffffff;
+  --badge: #1a1a2e;
+  --badge-fg: #ffffff;
+}
+
+.dark {
+  --background: #0c0c0e;
+  --background-elevated: #151518;
+  --foreground: #f2f2f2;
+  --muted: #a0a0a8;
+  --border: #f2f2f2;
+  --border-soft: rgba(242, 242, 242, 0.12);
+  --accent: #f2f2f2;
+  --accent-fg: #0c0c0e;
+  --badge: #e8e8ec;
+  --badge-fg: #0c0c0e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-elevated: var(--background-elevated);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-border-soft: var(--border-soft);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-badge: var(--badge);
+  --color-badge-fg: var(--badge-fg);
+  --font-sans: var(--font-outfit);
+  --font-display: var(--font-outfit);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, sans-serif;
+  min-height: 100dvh;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--foreground) 18%, transparent);
+}

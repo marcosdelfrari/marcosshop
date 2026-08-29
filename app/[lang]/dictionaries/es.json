@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Marcos Lucas · Grabados originales y obras hechas a mano",
+    "description": "Xilografías originales, grabados en linoleo y obras hechas a mano. Consulta por WhatsApp: piezas únicas y ediciones limitadas."
+  },
+  "nav": {
+    "works": "Obras",
+    "about": "Quién soy",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "intro": "Hola, me llamo {name}.",
+    "kicker": "Tienda",
+    "titleStrong": "Pocas piezas.",
+    "titleSoft": "Hechas a mano.",
+    "tagline": "Xilografías originales, grabados en linoleo y obras hechas a mano. Un lado ligero de la vida, no un plan de carrera.",
+    "cta": "Ver obras"
+  },
+  "works": {
+    "title": "Obras",
+    "viewAll": "Ver todas las obras",
+    "viewWork": "Ver obra",
+    "inquire": "Consultar por WhatsApp",
+    "unique": "Única",
+    "edition": "Edición",
+    "unavailable": "No disponible",
+    "medium": "Técnica",
+    "price": "Precio",
+    "mediums": {
+      "woodcut": "Xilografía",
+      "linoleum": "Linoleo",
+      "handmade": "A mano",
+      "acrylic": "Acrílico sobre tela"
+    }
+  },
+  "inquiry": {
+    "title": "Consultar sobre esta obra",
+    "subtitle": "Deja tus datos y continúa en WhatsApp para acordar disponibilidad y envío.",
+    "name": "Nombre",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "submit": "Continuar en WhatsApp",
+    "cancel": "Cancelar",
+    "required": "Campo obligatorio"
+  },
+  "about": {
+    "title": "Quién soy",
+    "kicker": "Sobre mí",
+    "body": "Ingeniero front-end brasileño de Belo Horizonte, con un lado juguetón que hace arte a mano.",
+    "homeIntro": "Hola, soy {name}. Un brasileño que juega con la vida y el arte. Esta tienda es ese lado más ligero: hacer cosas a mano, por el gusto de hacerlo.",
+    "readMore": "Saber más sobre mí",
+    "intro": "Tengo {age} años, soy brasileño y natural de Belo Horizonte. Profesionalmente soy ingeniero de software front-end. Esa parte de mí está en {portfolio}.",
+    "paragraphs": [
+      "Este espacio, las impresiones y las piezas hechas a mano, es más una forma juguetona de vivir. No una segunda carrera, solo curiosidad y oficio.",
+      "A lo largo de los años he creado obras autoriales, participé en talleres teatrales en la Pena Escola Arena, y sigo curioso por las ciencias sociales y la producción cultural.",
+      "Me gusta aprender y explorar lo que la vida pone delante. Tengo una forma propia de ver el mundo, y a veces eso termina en el papel."
+    ],
+    "contact": "¿Prefieres una conversación directa? Escríbeme por WhatsApp. Respondo personalmente."
+  },
+  "footer": {
+    "credit": "Diseñado y construido con Next.js y Tailwind CSS."
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro"
+  },
+  "locale": {
+    "label": "Idioma"
+  }
+}

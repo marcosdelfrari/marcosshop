@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#1a1a1a"/>
+  <path d="M120 820 L280 180 L420 520 L560 220 L680 820 Z" stroke="#f5f0e8" stroke-width="3" fill="none"/>
+  <circle cx="400" cy="380" r="48" stroke="#f5f0e8" stroke-width="2" fill="none"/>
+  <text x="400" y="920" text-anchor="middle" fill="#8a857c" font-family="system-ui,sans-serif" font-size="22">Night Grove</text>
+</svg>

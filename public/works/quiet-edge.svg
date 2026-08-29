@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#111"/>
+  <rect x="180" y="200" width="440" height="520" stroke="#efe8dc" stroke-width="2" fill="none"/>
+  <line x1="180" y1="460" x2="620" y2="460" stroke="#efe8dc" stroke-width="1.5"/>
+  <circle cx="400" cy="340" r="56" fill="#efe8dc" opacity="0.15"/>
+  <text x="400" y="920" text-anchor="middle" fill="#8a857c" font-family="system-ui,sans-serif" font-size="22">Quiet Edge</text>
+</svg>
