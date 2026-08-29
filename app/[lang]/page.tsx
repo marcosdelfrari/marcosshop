@@ -2,16 +2,13 @@ import { notFound } from "next/navigation";
 
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import { AboutPreview } from "@/components/about-preview";
-import { HomeFaqSection } from "@/components/home-faq-section";
 import { HomeHero } from "@/components/home-hero";
 import { HomePositioning } from "@/components/home-positioning";
 import { JsonLd } from "@/components/json-ld";
 import { WorkCard } from "@/components/work-card";
-import { getHomeFaqs } from "@/lib/faq";
 import { isLocale, type Locale } from "@/lib/i18n";
 import {
   buildCollectionPageJsonLd,
-  buildFaqJsonLd,
   buildOrganizationJsonLd,
   buildWebSiteJsonLd,
 } from "@/lib/seo";
@@ -24,7 +21,6 @@ export default async function HomePage({
   if (!isLocale(lang)) notFound();
 
   const dict = await getDictionary(lang as Locale);
-  const faqs = getHomeFaqs(lang as Locale);
 
   return (
     <>
@@ -33,7 +29,6 @@ export default async function HomePage({
           buildWebSiteJsonLd(lang as Locale),
           buildOrganizationJsonLd(lang as Locale),
           buildCollectionPageJsonLd(lang as Locale, works),
-          buildFaqJsonLd(faqs),
         ]}
       />
 
@@ -61,8 +56,6 @@ export default async function HomePage({
         </section>
 
         <AboutPreview lang={lang as Locale} dict={dict} />
-
-        <HomeFaqSection lang={lang as Locale} title={dict.faq.title} />
       </div>
     </>
   );

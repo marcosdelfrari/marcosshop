@@ -324,17 +324,17 @@ const workGenres: Record<Locale, string> = {
 };
 
 const siteDescriptions: Record<Locale, string> = {
-  en: "Artist-run shop for conceptual, alternative indie art — hand-carved woodcuts, linoleum prints and acrylic paintings by Marcos Lucas. Unique works from Brazil, shipped across Europe.",
-  es: "Tienda del artista de arte conceptual indie alternativa — xilografías, linóleos y pinturas hechas a mano por Marcos Lucas. Obras únicas desde Brasil, con envío a Europa.",
-  fr: "Boutique d'artiste pour art conceptuel indie alternatif — xylographies, linogravures et peintures faites main par Marcos Lucas. Pièces uniques du Brésil, expédiées en Europe.",
-  de: "Künstler-Shop für konzeptuelle, alternative Indie-Kunst — Holzschnitte, Linoldrucke und Acrylgemälde von Marcos Lucas. Einzelwerke aus Brasilien, Versand in Europa.",
+  en: "Personal space for hand-made woodcuts, linoleum prints and acrylic paintings by Marcos Lucas — work accumulated over the years. Unique pieces from Brazil, shipped across Europe.",
+  es: "Espacio personal para xilografías, linóleos y pinturas hechas a mano por Marcos Lucas — obra acumulada a lo largo de los años. Piezas únicas desde Brasil, con envío a Europa.",
+  fr: "Espace personnel pour xylographies, linogravures et peintures faites main par Marcos Lucas — œuvres accumulées au fil des années. Pièces uniques du Brésil, expédiées en Europe.",
+  de: "Persönlicher Raum für handgemachte Holzschnitte, Linoldrucke und Acrylgemälde von Marcos Lucas — Werke, die über die Jahre entstanden sind. Einzelstücke aus Brasilien, Versand in Europa.",
 };
 
 const siteTaglines: Record<Locale, string> = {
-  en: "Conceptual indie art — few pieces, made by hand.",
-  es: "Arte conceptual indie — pocas piezas, hechas a mano.",
-  fr: "Art conceptuel indie — peu de pièces, faites à la main.",
-  de: "Konzeptuelle Indie-Kunst — wenige Stücke, von Hand gemacht.",
+  en: "Few pieces, made by hand — work from life.",
+  es: "Pocas piezas, hechas a mano — obra de la vida.",
+  fr: "Peu de pièces, faites à la main — œuvre de vie.",
+  de: "Wenige Stücke, von Hand gemacht — Arbeit aus dem Leben.",
 };
 
 const siteKeywords: Record<Locale, string[]> = {
@@ -386,17 +386,17 @@ const siteKeywords: Record<Locale, string[]> = {
 };
 
 const collectionTitles: Record<Locale, string> = {
-  en: "Conceptual indie art — original prints & paintings",
-  es: "Arte conceptual indie — grabados y pinturas originales",
-  fr: "Art conceptuel indie — estampes et peintures originales",
-  de: "Konzeptuelle Indie-Kunst — Originaldrucke & Gemälde",
+  en: "Original prints & paintings — work from life",
+  es: "Grabados y pinturas originales — obra de la vida",
+  fr: "Estampes et peintures originales — œuvre de vie",
+  de: "Originaldrucke & Gemälde — Arbeit aus dem Leben",
 };
 
 const jobTitles: Record<Locale, string> = {
-  en: "Conceptual artist & front-end engineer",
-  es: "Artista conceptual e ingeniero front-end",
-  fr: "Artiste conceptuel et ingénieur front-end",
-  de: "Konzeptkünstler & Front-end-Entwickler",
+  en: "Visual artist & front-end engineer",
+  es: "Artista visual e ingeniero front-end",
+  fr: "Artiste visuel et ingénieur front-end",
+  de: "Visueller Künstler & Front-end-Entwickler",
 };
 
 const knowsAbout: Record<Locale, string[]> = {

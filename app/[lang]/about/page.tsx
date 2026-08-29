@@ -6,14 +6,17 @@ import { getDictionary } from "@/app/[lang]/dictionaries";
 import { AvatarVideo } from "@/components/avatar-video";
 import { renderBioText } from "@/components/bio-text";
 import { FadeUp } from "@/components/fade-up";
+import { FaqSection } from "@/components/faq-section";
 import { JsonLd } from "@/components/json-ld";
 import { WhatsAppIcon } from "@/components/social-icons";
 import { SocialLinks } from "@/components/social-links";
+import { getFaqs } from "@/lib/faq";
 import { isLocale, type Locale } from "@/lib/i18n";
 import { getAge, profile } from "@/lib/profile";
 import {
   buildAboutMetadata,
   buildBreadcrumbJsonLd,
+  buildFaqJsonLd,
   buildPersonJsonLd,
   localizedPath,
 } from "@/lib/seo";
@@ -37,6 +40,7 @@ export default async function AboutPage({
 
   const dict = await getDictionary(lang as Locale);
   const age = getAge(profile.birthdate);
+  const faqs = getFaqs(lang as Locale);
 
   const breadcrumbs = buildBreadcrumbJsonLd([
     { name: siteConfig.name, path: localizedPath(lang as Locale) },
@@ -45,7 +49,13 @@ export default async function AboutPage({
 
   return (
     <>
-      <JsonLd data={[buildPersonJsonLd(lang as Locale), breadcrumbs]} />
+      <JsonLd
+        data={[
+          buildPersonJsonLd(lang as Locale),
+          breadcrumbs,
+          buildFaqJsonLd(faqs),
+        ]}
+      />
 
       <article className="mx-auto max-w-2xl">
         <div className="flex flex-col items-center gap-8 text-center sm:items-start sm:text-left">
@@ -87,6 +97,10 @@ export default async function AboutPage({
 
           <FadeUp inView delay={0.2}>
             <SocialLinks className="justify-center sm:justify-start" />
+          </FadeUp>
+
+          <FadeUp inView delay={0.22} className="w-full">
+            <FaqSection lang={lang as Locale} title={dict.faq.title} />
           </FadeUp>
 
           <FadeUp

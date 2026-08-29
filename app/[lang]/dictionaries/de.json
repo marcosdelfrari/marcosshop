@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Marcos Lucas · Konzeptuelle Indie-Kunst & Originaldrucke",
-    "description": "Künstler-Shop für konzeptuelle, alternative Indie-Kunst — Holzschnitte, Linoldrucke und handgemalte Bilder. Einzelwerke aus Brasilien, Versand in Europa."
+    "title": "Marcos Lucas · Originaldrucke & Gemälde",
+    "description": "Persönlicher Raum für handgemachte Holzschnitte, Linoldrucke und Acrylgemälde — Werke, die über die Jahre entstanden sind. Einzelstücke aus Brasilien, Versand in Europa."
   },
   "nav": {
     "works": "Werke",
@@ -11,10 +11,10 @@
   },
   "hero": {
     "intro": "Hallo, ich heiße {name}.",
-    "kicker": "Künstler-Shop",
-    "titleStrong": "Konzeptuelle Werke.",
-    "titleSoft": "Indie, von Hand.",
-    "tagline": "Ein kleiner Katalog alternativer Kunst — Folklore, Stimmung, Widerspruch. Kein Galerie-Roster, keine offenen Auflagen. Nur geschnitzte, gezogene und gemalte Stücke.",
+    "kicker": "Meine Arbeit",
+    "titleStrong": "Wenige Stücke.",
+    "titleSoft": "Von Hand gemacht.",
+    "tagline": "Eine kleine Ecke im Internet für das, was ich über die Jahre geschnitzt, gedruckt und gemalt habe — Arbeit aus dem Leben, nicht aus einem Katalog.",
     "cta": "Werke ansehen"
   },
   "works": {
@@ -48,8 +48,8 @@
   "about": {
     "title": "Über mich",
     "kicker": "Profil",
-    "body": "Brasilianischer Konzeptkünstler und Front-end-Entwickler aus Belo Horizonte — mit einem indie, künstlergeführten Shop für handgemachte alternative Werke.",
-    "homeIntro": "Hallo, ich bin {name}. Ich mache konzeptuelle Indie-Kunst von Hand — Drucke und Gemälde außerhalb des kommerziellen Zirkuits. Dieser Shop ist diese Seite von mir: klein, direkt, persönlich.",
+    "body": "Brasilianischer Künstler und Front-end-Entwickler aus Belo Horizonte — dieser Shop ist der Ort, an dem ich die Werke zeige, die das Leben mir hinterlassen hat.",
+    "homeIntro": "Hallo, ich bin {name}. Das ist mein Raum, um die Arbeit zu zeigen, die ich unterwegs gemacht habe — Drucke und Gemälde, von Hand. Nichts Großes, nur meins.",
     "readMore": "Mehr über mich",
     "intro": "Ich bin {age}, Brasilianer aus Belo Horizonte. Beruflich bin ich Front-end-Softwareentwickler. Diese Seite von mir finden Sie unter {portfolio}.",
     "paragraphs": [
@@ -73,11 +73,11 @@
     "title": "Häufig gestellte Fragen"
   },
   "positioning": {
-    "title": "Konzeptuelle Indie-Kunst, ohne Galerie-Tür",
+    "title": "Ein persönlicher Raum für die Arbeit, die das Leben hinterlässt",
     "paragraphs": [
-      "Das ist keine Commercial Brand und keine White-Cube-Galerie. Es ist ein künstlergeführter Raum für konzeptuelle, alternative Werke — Holzschnitte, Linoldrucke und Gemälde, bei denen die Idee so viel wiegt wie das Objekt.",
-      "Indie bedeutet hier unabhängig in Prozess und Maßstab: geschnitzte Blöcke, von Hand gezogene Abzüge, einmalige Stücke. Der Shop existiert, damit Sammler in Europa und anderswo das Werk direkt erreichen — im Gespräch, nicht über einen Sales-Funnel.",
-      "Jedes Stück im Katalog ist eigenständig und endlich. Wenn Sie konzeptuelle Druckgrafik, brasilianische zeitgenössische Kunst mit Underground-Sensibilität oder einfach etwas suchen, das nicht massenproduziert wurde, sind Sie hier richtig."
+      "Dieser Shop ist einfach der Ort, an dem ich Stücke unterbringe, die ich über die Jahre gemacht habe — Holzschnitte, Linoldrucke, Gemälde. Keine Marke, kein Karriereschritt. Nur Arbeit, die sich angesammelt hat und irgendwo existieren darf.",
+      "Alles hier ist von Hand gemacht, in kleiner Zahl oder als Einzelstücke. Wenn etwas Sie anspricht, sprechen wir auf WhatsApp. Ich antworte selbst.",
+      "Ich lebe in Belo Horizonte, Brasilien. Werke werden ungerahmt nach Europa und anderswo versendet. Schauen Sie, fragen Sie an, oder schauen Sie einfach nur."
     ]
   },
   "privacy": {

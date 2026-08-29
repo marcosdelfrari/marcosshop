@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Marcos Lucas · Arte conceptual indie y grabados originales",
-    "description": "Tienda del artista de arte conceptual indie alternativa — xilografías, linóleos y pinturas hechas a mano. Obras únicas desde Brasil, con envío a Europa."
+    "title": "Marcos Lucas · Grabados y pinturas originales",
+    "description": "Espacio personal para xilografías, linóleos y pinturas hechas a mano — obra acumulada a lo largo de los años. Piezas únicas desde Brasil, con envío a Europa."
   },
   "nav": {
     "works": "Obras",
@@ -11,10 +11,10 @@
   },
   "hero": {
     "intro": "Hola, me llamo {name}.",
-    "kicker": "Tienda del artista",
-    "titleStrong": "Obras conceptuales.",
-    "titleSoft": "Indie, a mano.",
-    "tagline": "Un catálogo pequeño de arte alternativo — folclore, atmósfera, contradicción. Sin roster de galería, sin ediciones abiertas. Solo piezas talladas, impresas y pintadas a mano.",
+    "kicker": "Mi obra",
+    "titleStrong": "Pocas piezas.",
+    "titleSoft": "Hechas a mano.",
+    "tagline": "Un rincón de internet para lo que he tallado, impreso y pintado con los años — obra de la vida, no de un catálogo.",
     "cta": "Ver obras"
   },
   "works": {
@@ -48,8 +48,8 @@
   "about": {
     "title": "Quién soy",
     "kicker": "Sobre mí",
-    "body": "Artista conceptual brasileño e ingeniero front-end de Belo Horizonte — con una tienda indie dirigida por el propio artista.",
-    "homeIntro": "Hola, soy {name}. Hago arte conceptual e indie a mano — grabados y pinturas fuera del circuito comercial. Esta tienda es ese lado mío: pequeña, directa, personal.",
+    "body": "Artista brasileño e ingeniero front-end de Belo Horizonte — esta tienda es donde muestro la obra que la vida me fue dejando.",
+    "homeIntro": "Hola, soy {name}. Este es mi espacio para exponer lo que he hecho en el camino — grabados y pinturas, a mano. Nada grandioso, solo mío.",
     "readMore": "Saber más sobre mí",
     "intro": "Tengo {age} años, soy brasileño y natural de Belo Horizonte. Profesionalmente soy ingeniero de software front-end. Esa parte de mí está en {portfolio}.",
     "paragraphs": [
@@ -73,11 +73,11 @@
     "title": "Preguntas frecuentes"
   },
   "positioning": {
-    "title": "Arte conceptual indie, sin la puerta de la galería",
+    "title": "Un espacio personal para la obra que deja la vida",
     "paragraphs": [
-      "Esto no es una marca comercial ni una galería white-cube. Es un espacio del artista para obras conceptuales y alternativas — xilografías, linóleos y pinturas donde la idea pesa tanto como el objeto.",
-      "Indie, aquí, significa independiente en proceso y escala: bloques tallados, impresiones tiradas a mano, piezas únicas. La tienda existe para que coleccionistas en Europa y otros lugares lleguen al trabajo directamente — por conversación, no por un embudo de ventas.",
-      "Cada pieza del catálogo es de autoría propia y finita. Si buscas grabado conceptual, arte contemporáneo brasileño con sensibilidad underground, o simplemente algo que no fue producido en masa, estás en el lugar correcto."
+      "Esta tienda es simplemente donde pongo piezas que he hecho a lo largo de los años — xilografías, linóleos, pinturas. No es una marca ni un plan de carrera. Solo trabajo que se acumuló y merece existir en algún lugar.",
+      "Todo aquí está hecho a mano, en pequeña cantidad o como piezas únicas. Si algo te habla, hablamos por WhatsApp. Respondo yo.",
+      "Vivo en Belo Horizonte, Brasil. Las piezas se envían sin marco a Europa y otros lugares. Puedes mirar, consultar o simplemente ver."
     ]
   },
   "privacy": {

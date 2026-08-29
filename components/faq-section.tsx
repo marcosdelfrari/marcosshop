@@ -1,14 +1,14 @@
 import type { Locale } from "@/lib/i18n";
-import { getHomeFaqs } from "@/lib/faq";
+import { getFaqs } from "@/lib/faq";
 
-export function HomeFaqSection({
+export function FaqSection({
   lang,
   title,
 }: {
   lang: Locale;
   title: string;
 }) {
-  const faqs = getHomeFaqs(lang);
+  const faqs = getFaqs(lang);
 
   return (
     <section id="faq" className="scroll-mt-8 space-y-6">
