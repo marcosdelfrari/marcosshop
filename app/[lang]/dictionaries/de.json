@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "Marcos Lucas · Originale Drucke & handgemachte Werke",
+    "description": "Originale Holzschnitte, Linoldrucke und handgemalte Bilder von Marcos Lucas. Einzelstücke mit Versand in Europa. Anfrage per WhatsApp."
+  },
+  "nav": {
+    "works": "Werke",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz"
+  },
+  "hero": {
+    "intro": "Hallo, ich heiße {name}.",
+    "kicker": "Shop",
+    "titleStrong": "Wenige Stücke.",
+    "titleSoft": "Von Hand gemacht.",
+    "tagline": "Originale Holzschnitte, Linoldrucke und handgemachte Werke. Die leichte Seite des Lebens — kein Karriereplan.",
+    "cta": "Werke ansehen"
+  },
+  "works": {
+    "title": "Werke",
+    "viewAll": "Alle Werke ansehen",
+    "viewWork": "Werk ansehen",
+    "inquire": "Anfrage per WhatsApp",
+    "unique": "Einzelstück",
+    "edition": "Auflage",
+    "unavailable": "Nicht verfügbar",
+    "medium": "Technik",
+    "price": "Preis",
+    "mediums": {
+      "woodcut": "Holzschnitt",
+      "linoleum": "Linoldruck",
+      "handmade": "Handgemacht",
+      "acrylic": "Acryl auf Leinwand"
+    }
+  },
+  "inquiry": {
+    "title": "Anfrage zu diesem Werk",
+    "subtitle": "Hinterlassen Sie Ihre Daten und fahren Sie auf WhatsApp fort, um Verfügbarkeit und Versand zu klären.",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "submit": "Weiter auf WhatsApp",
+    "cancel": "Abbrechen",
+    "required": "Pflichtfeld",
+    "privacyNotice": "Mit dem Fortfahren werden Ihre Daten per WhatsApp zur Bearbeitung Ihrer Anfrage übermittelt. Siehe unsere"
+  },
+  "about": {
+    "title": "Über mich",
+    "kicker": "Profil",
+    "body": "Brasilianischer Front-end-Entwickler aus Belo Horizonte — mit einer verspielten Seite, die Kunst von Hand macht.",
+    "homeIntro": "Hallo, ich bin {name}. Ein Brasilianer, der mit Leben und Kunst spielt. Dieser Shop ist die leichtere Seite: Dinge von Hand machen, einfach aus Freude daran.",
+    "readMore": "Mehr über mich",
+    "intro": "Ich bin {age}, Brasilianer aus Belo Horizonte. Beruflich bin ich Front-end-Softwareentwickler. Diese Seite von mir finden Sie unter {portfolio}.",
+    "paragraphs": [
+      "Dieser Raum, die Drucke und handgemachten Stücke, ist eher eine spielerische Art zu leben. Keine zweite Karriere — nur Neugier und Handwerk.",
+      "Im Laufe der Jahre habe ich eigene Werke in verschiedenen Formen geschaffen, an Theaterworkshops in der Pena Escola Arena teilgenommen und mich für Sozialwissenschaften und Kulturproduktion interessiert.",
+      "Ich lerne gern und erkunde, was das Leben vor mich hinstellt. Ich habe meine eigene Sicht auf die Welt — und manchmal landet sie auf Papier."
+    ],
+    "contact": "Lieber ein direktes Gespräch? Schreiben Sie mir auf WhatsApp. Ich antworte persönlich."
+  },
+  "footer": {
+    "credit": "Entworfen und gebaut mit Next.js und Tailwind CSS."
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel"
+  },
+  "locale": {
+    "label": "Sprache"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "summary": "Diese Erklärung beschreibt, wie Marcos Lucas personenbezogene Daten verarbeitet, wenn Sie eine Anfrage zu einem Werk stellen — insbesondere wenn Sie im Vereinigten Königreich oder in der Europäischen Union ansässig sind.",
+    "updated": "Zuletzt aktualisiert: August 2026",
+    "contact": "Fragen zu Ihren Daten? Kontaktieren Sie Marcos direkt per WhatsApp.",
+    "sections": [
+      {
+        "title": "Verantwortlicher",
+        "paragraphs": [
+          "Verantwortlicher für diese Website ist Marcos Lucas (Einzelkünstler), Betreiber des Shops unter shop.marcosdelfrari.com. Für Datenschutzanfragen nutzen Sie die WhatsApp-Nummer im Bereich Kontakt."
+        ]
+      },
+      {
+        "title": "Welche Daten wir erheben",
+        "paragraphs": [
+          "Wenn Sie das Anfrageformular auf einer Werkseite nutzen, können Sie Name, E-Mail-Adresse und Telefonnummer angeben. Sie entscheiden, was Sie eingeben; alle drei Felder sind zum Fortfahren erforderlich.",
+          "Diese Website verwendet keine Analyse-Tools, Werbe-Tracker oder Benutzerkonten. Die Theme-Einstellung (hell/dunkel) kann nur im lokalen Speicher Ihres Browsers gespeichert werden — sie wird nicht an einen Server gesendet."
+        ]
+      },
+      {
+        "title": "Verwendung Ihrer Anfragedaten",
+        "paragraphs": [
+          "Ihre Angaben werden nicht in einer Datenbank auf dieser Website gespeichert. Beim Absenden werden sie in eine vorausgefüllte WhatsApp-Nachricht eingefügt, die Sie direkt an Marcos senden.",
+          "Marcos nutzt diese Informationen ausschließlich, um Ihre Anfrage zu Verfügbarkeit, Preis, Versand in Ihr Land und Zahlungsmodalitäten zu beantworten."
+        ]
+      },
+      {
+        "title": "Rechtsgrundlage (UK & EU)",
+        "paragraphs": [
+          "Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung beim Absenden des Formulars und Öffnen von WhatsApp sowie des berechtigten Interesses von Marcos, Kaufanfragen zu beantworten.",
+          "Die Angabe Ihrer Daten ist freiwillig, aber ohne sie kann Marcos nicht über den vorgesehenen Kanal antworten."
+        ]
+      },
+      {
+        "title": "Dritte & internationale Übermittlung",
+        "paragraphs": [
+          "WhatsApp (Meta Platforms) verarbeitet die von Ihnen gesendete Nachricht. Deren Datenverarbeitung unterliegt deren eigener Datenschutzerklärung und kann Server außerhalb Ihres Landes, einschließlich außerhalb des UK/EU, umfassen.",
+          "Marcos verkauft oder teilt Ihre Anfragedaten nicht mit anderen Dritten zu Marketingzwecken."
+        ]
+      },
+      {
+        "title": "Speicherdauer",
+        "paragraphs": [
+          "In WhatsApp oder in Marcos' persönlichen Aufzeichnungen gespeicherte Nachrichten werden nur so lange aufbewahrt, wie es für Ihre Anfrage, einen möglichen Verkauf oder gesetzliche Pflichten (z. B. Steuerunterlagen) erforderlich ist."
+        ]
+      },
+      {
+        "title": "Ihre Rechte",
+        "paragraphs": [
+          "Wenn Sie im Vereinigten Königreich oder in der EU/EWR ansässig sind, haben Sie ggf. das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung oder Widerspruch gegen die Verarbeitung sowie auf Datenübertragbarkeit, soweit anwendbar.",
+          "Sie können Ihre Einwilligung jederzeit per WhatsApp widerrufen. Sie haben außerdem das Recht, Beschwerde bei Ihrer Datenschutzaufsichtsbehörde einzureichen."
+        ]
+      }
+    ]
+  }
+}

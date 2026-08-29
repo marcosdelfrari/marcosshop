@@ -1,12 +1,13 @@
 {
   "meta": {
     "title": "Marcos Lucas · Grabados originales y obras hechas a mano",
-    "description": "Xilografías originales, grabados en linoleo y obras hechas a mano. Consulta por WhatsApp: piezas únicas y ediciones limitadas."
+    "description": "Xilografías originales, grabados en linoleo y pinturas hechas a mano por Marcos Lucas. Piezas únicas con envío a Europa. Consulta por WhatsApp."
   },
   "nav": {
     "works": "Obras",
     "about": "Quién soy",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "privacy": "Privacidad"
   },
   "hero": {
     "intro": "Hola, me llamo {name}.",
@@ -41,7 +42,8 @@
     "phone": "Teléfono",
     "submit": "Continuar en WhatsApp",
     "cancel": "Cancelar",
-    "required": "Campo obligatorio"
+    "required": "Campo obligatorio",
+    "privacyNotice": "Al continuar, tus datos se envían por WhatsApp para gestionar tu consulta. Consulta nuestra"
   },
   "about": {
     "title": "Quién soy",
@@ -66,5 +68,63 @@
   },
   "locale": {
     "label": "Idioma"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "summary": "Esta política explica cómo Marcos Lucas trata los datos personales cuando consultas sobre una obra — especialmente si te encuentras en el Reino Unido o la Unión Europea.",
+    "updated": "Última actualización: agosto de 2026",
+    "contact": "¿Preguntas sobre tus datos? Contacta a Marcos directamente por WhatsApp.",
+    "sections": [
+      {
+        "title": "Responsable del tratamiento",
+        "paragraphs": [
+          "El responsable de los datos de este sitio es Marcos Lucas (artista individual), que opera la tienda en shop.marcosdelfrari.com. Para solicitudes de privacidad, usa el número de WhatsApp de la sección Contacto."
+        ]
+      },
+      {
+        "title": "Qué datos recopilamos",
+        "paragraphs": [
+          "Al usar el formulario de consulta en una obra, puedes facilitar tu nombre, correo electrónico y teléfono. Tú decides qué introducir; los tres campos son obligatorios para continuar.",
+          "Este sitio no utiliza analítica, rastreadores publicitarios ni cuentas de usuario. La preferencia de tema (claro/oscuro) puede guardarse solo en el almacenamiento local de tu navegador — no se envía a ningún servidor."
+        ]
+      },
+      {
+        "title": "Cómo se usan los datos de tu consulta",
+        "paragraphs": [
+          "Tus datos no se almacenan en una base de datos de este sitio. Al enviar el formulario, se incluyen en un mensaje pre-rellenado de WhatsApp para que lo envíes directamente a Marcos.",
+          "Marcos utiliza esta información únicamente para responder a tu consulta sobre disponibilidad, precio, envío a tu país y forma de pago."
+        ]
+      },
+      {
+        "title": "Base legal (Reino Unido y UE)",
+        "paragraphs": [
+          "El tratamiento se basa en tu consentimiento al enviar el formulario y abrir WhatsApp, y en el interés legítimo de Marcos de responder a consultas de compra.",
+          "Facilitar tus datos es voluntario, pero sin ellos Marcos no puede responder por el canal previsto."
+        ]
+      },
+      {
+        "title": "Terceros y transferencia internacional",
+        "paragraphs": [
+          "WhatsApp (Meta Platforms) procesa el mensaje que envías. Su tratamiento de datos se rige por su propia política de privacidad y puede implicar servidores fuera de tu país, incluso fuera del Reino Unido/UE.",
+          "Marcos no vende ni comparte tus datos de consulta con otros terceros con fines de marketing."
+        ]
+      },
+      {
+        "title": "Conservación",
+        "paragraphs": [
+          "Los mensajes conservados en WhatsApp o en los registros personales de Marcos se mantienen solo el tiempo necesario para gestionar tu consulta, una posible venta u obligaciones legales (p. ej. registros fiscales cuando corresponda)."
+        ]
+      },
+      {
+        "title": "Tus derechos",
+        "paragraphs": [
+          "Si te encuentras en el Reino Unido o en la UE/EEE, puedes tener derecho de acceso, rectificación, supresión, limitación u oposición al tratamiento, y a la portabilidad cuando proceda.",
+          "Puedes retirar tu consentimiento en cualquier momento escribiendo a Marcos por WhatsApp. También tienes derecho a presentar una reclamación ante tu autoridad de protección de datos."
+        ]
+      }
+    ]
   }
 }

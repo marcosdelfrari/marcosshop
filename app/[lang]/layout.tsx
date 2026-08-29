@@ -6,6 +6,7 @@ import { getDictionary } from "@/app/[lang]/dictionaries";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
+import { buildHomeMetadata, SITE_URL } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
 import "../globals.css";
@@ -29,23 +30,12 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   return {
+    ...buildHomeMetadata(lang, dict.meta.title, dict.meta.description),
     title: {
       default: dict.meta.title,
       template: `%s · ${siteConfig.name}`,
     },
-    description: dict.meta.description,
-    metadataBase: new URL(siteConfig.url),
-    alternates: {
-      languages: Object.fromEntries(
-        locales.map((locale) => [locale, `/${locale}`]),
-      ),
-    },
-    openGraph: {
-      title: dict.meta.title,
-      description: dict.meta.description,
-      siteName: siteConfig.name,
-      type: "website",
-    },
+    metadataBase: new URL(SITE_URL),
   };
 }
 
@@ -73,6 +63,7 @@ export default async function LangLayout({
     <html lang={lang} className={`${outfit.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM discovery" />
       </head>
       <body className="flex min-h-dvh flex-col font-sans text-foreground">
         <SiteHeader lang={lang as Locale} dict={dict} />

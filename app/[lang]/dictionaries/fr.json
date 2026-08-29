@@ -1,12 +1,13 @@
 {
   "meta": {
     "title": "Marcos Lucas · Estampes originales et œuvres faites main",
-    "description": "Xylographies originales, linogravures et œuvres faites main. Demande via WhatsApp pour pièces uniques et éditions limitées."
+    "description": "Xylographies originales, linogravures et peintures faites main par Marcos Lucas. Pièces uniques expédiées en Europe. Demande via WhatsApp."
   },
   "nav": {
     "works": "Œuvres",
     "about": "Qui suis-je",
-    "contact": "Contact"
+    "contact": "Contact",
+    "privacy": "Confidentialité"
   },
   "hero": {
     "intro": "Bonjour, je m'appelle {name}.",
@@ -41,7 +42,8 @@
     "phone": "Téléphone",
     "submit": "Continuer sur WhatsApp",
     "cancel": "Annuler",
-    "required": "Champ obligatoire"
+    "required": "Champ obligatoire",
+    "privacyNotice": "En continuant, vos coordonnées sont envoyées via WhatsApp pour traiter votre demande. Consultez notre"
   },
   "about": {
     "title": "Qui suis-je",
@@ -66,5 +68,63 @@
   },
   "locale": {
     "label": "Langue"
+  },
+  "faq": {
+    "title": "Questions fréquentes"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "summary": "Cette politique explique comment Marcos Lucas traite les données personnelles lorsque vous demandez des renseignements sur une œuvre — notamment si vous êtes au Royaume-Uni ou dans l'Union européenne.",
+    "updated": "Dernière mise à jour : août 2026",
+    "contact": "Des questions sur vos données ? Contactez Marcos directement sur WhatsApp.",
+    "sections": [
+      {
+        "title": "Responsable du traitement",
+        "paragraphs": [
+          "Le responsable du traitement de ce site est Marcos Lucas (artiste individuel), qui exploite la boutique shop.marcosdelfrari.com. Pour les demandes liées à la confidentialité, utilisez le numéro WhatsApp indiqué dans la section Contact."
+        ]
+      },
+      {
+        "title": "Données collectées",
+        "paragraphs": [
+          "Lorsque vous utilisez le formulaire de demande sur une œuvre, vous pouvez indiquer votre nom, adresse e-mail et numéro de téléphone. Vous choisissez ce que vous saisissez ; les trois champs sont requis pour continuer.",
+          "Ce site n'utilise pas d'analytique, de traceurs publicitaires ni de compte utilisateur. La préférence de thème (clair/sombre) peut être stockée uniquement dans le stockage local de votre navigateur — elle n'est pas envoyée à un serveur."
+        ]
+      },
+      {
+        "title": "Utilisation des données de votre demande",
+        "paragraphs": [
+          "Vos coordonnées ne sont pas stockées dans une base de données sur ce site. Lors de l'envoi du formulaire, elles sont insérées dans un message WhatsApp pré-rempli que vous envoyez directement à Marcos.",
+          "Marcos utilise ces informations uniquement pour répondre à votre demande concernant la disponibilité, le prix, la livraison vers votre pays et les modalités de paiement."
+        ]
+      },
+      {
+        "title": "Base légale (Royaume-Uni et UE)",
+        "paragraphs": [
+          "Le traitement repose sur votre consentement lorsque vous soumettez le formulaire et ouvrez WhatsApp, et sur l'intérêt légitime de Marcos à répondre aux demandes d'achat.",
+          "La communication de vos données est volontaire, mais sans elles Marcos ne peut pas répondre via le canal prévu."
+        ]
+      },
+      {
+        "title": "Tiers et transfert international",
+        "paragraphs": [
+          "WhatsApp (Meta Platforms) traite le message que vous envoyez. Leur traitement des données est régi par leur propre politique de confidentialité et peut impliquer des serveurs hors de votre pays, y compris hors Royaume-Uni/UE.",
+          "Marcos ne vend ni ne partage vos données de demande avec d'autres tiers à des fins marketing."
+        ]
+      },
+      {
+        "title": "Conservation",
+        "paragraphs": [
+          "Les messages conservés dans WhatsApp ou dans les archives personnelles de Marcos ne sont gardés que le temps nécessaire pour traiter votre demande, une éventuelle vente ou des obligations légales (p. ex. documents fiscaux le cas échéant)."
+        ]
+      },
+      {
+        "title": "Vos droits",
+        "paragraphs": [
+          "Si vous êtes au Royaume-Uni ou dans l'UE/EEE, vous pouvez avoir le droit d'accès, de rectification, d'effacement, de limitation ou d'opposition au traitement, ainsi qu'à la portabilité le cas échéant.",
+          "Vous pouvez retirer votre consentement à tout moment en écrivant à Marcos sur WhatsApp. Vous avez aussi le droit d'introduire une réclamation auprès de votre autorité de protection des données."
+        ]
+      }
+    ]
   }
 }

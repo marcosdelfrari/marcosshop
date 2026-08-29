@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
+import Link from "next/link";
 import { useId, useRef, useState } from "react";
 
 import type { Dictionary } from "@/app/[lang]/dictionaries";
@@ -16,6 +17,7 @@ type InquiryDialogProps = {
   workTitle: string;
   workSlug: string;
   labels: Dictionary["inquiry"];
+  privacyLabel: string;
   triggerLabel: string;
   triggerClassName?: string;
   disabled?: boolean;
@@ -26,6 +28,7 @@ export function InquiryDialog({
   workTitle,
   workSlug,
   labels,
+  privacyLabel,
   triggerLabel,
   triggerClassName,
   disabled,
@@ -147,6 +150,17 @@ export function InquiryDialog({
               onChange={setPhone}
             />
           </div>
+
+          <p className="text-xs leading-relaxed text-muted">
+            {labels.privacyNotice}{" "}
+            <Link
+              href={`/${lang}/privacy`}
+              className="font-medium text-foreground underline underline-offset-2"
+            >
+              {privacyLabel}
+            </Link>
+            .
+          </p>
 
           <div className="flex flex-col-reverse gap-3 pt-1 sm:flex-row">
             <button

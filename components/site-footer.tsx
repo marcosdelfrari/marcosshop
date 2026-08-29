@@ -13,7 +13,7 @@ export function SiteFooter({
   return (
     <footer className="border-t border-border-soft">
       <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 lg:px-12">
-        <nav className="mb-4 flex items-center justify-center gap-6 text-sm">
+        <nav className="mb-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
           <Link
             href={`/${lang}`}
             className="text-muted transition-colors hover:text-foreground"
@@ -25,6 +25,12 @@ export function SiteFooter({
             className="text-muted transition-colors hover:text-foreground"
           >
             {dict.nav.about}
+          </Link>
+          <Link
+            href={`/${lang}/privacy`}
+            className="text-muted transition-colors hover:text-foreground"
+          >
+            {dict.nav.privacy}
           </Link>
         </nav>
         <p className="text-center text-xs text-muted">{dict.footer.credit}</p>

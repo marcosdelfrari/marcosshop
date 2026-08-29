@@ -36,7 +36,7 @@ export const works: Work[] = [
       "/works/oni3.webp",
       "/works/oni4.webp",
     ],
-    price: { amount: 200, currency: "GBP" },
+    price: { amount: 200, currency: "EUR" },
     available: true,
     content: {
       en: {
@@ -54,6 +54,11 @@ export const works: Work[] = [
         description:
           "Dans le folklore japonais, les oni sont des démons — des figures féroces entre le quotidien et le surnaturel. Cette pièce porte cette présence sur linoléum : gravée à la main et imprimée à l'encre noire, dans l'esprit de la gravure sur bois traditionnelle.\n\nChaque ligne est creusée dans le bloc ; chaque épreuve est tirée à la main. Les noirs profonds et les contrastes nets visent l'immédiat — comme si quelque chose du mythe venait de poser le pied sur le papier.\n\nPièce unique, 30 × 30 cm. Imprimée sur papier d'archives. Expédiée sans cadre.",
       },
+      de: {
+        title: "ONI",
+        description:
+          "In der japanischen Folklore sind Oni Dämonen — wilde Gestalten zwischen Alltag und Übernatürlichem. Dieses Werk bringt diese Präsenz in Linoldruck: von Hand geschnitzt und mit schwarzer Tinte gedruckt, im Geist traditioneller Holzschnittkunst.\n\nJede Linie wird in den Block geschnitten; jeder Abzug wird von Hand gezogen. Tiefe Schwarztöne und scharfe Kontraste sollen unmittelbar wirken — als ob etwas aus dem Mythos gerade das Papier betreten hätte.\n\nEinzelstück, 30 × 30 cm. Gedruckt auf Archivpapier. Ungerahmt versendet.",
+      },
     },
   },
   {
@@ -68,7 +73,7 @@ export const works: Work[] = [
       "/works/demon3.webp",
       "/works/demon4.webp",
     ],
-    price: { amount: 200, currency: "GBP" },
+    price: { amount: 200, currency: "EUR" },
     available: true,
     content: {
       en: {
@@ -86,6 +91,11 @@ export const works: Work[] = [
         description:
           "Gravure sur bois imprimée à l'encre noire. L'image part du sentiment contradictoire de la société : ce qui nous blesse et évoque pourtant le plaisant — le vice déguisé en tentation, la douleur prise pour de l'intensité.\n\nLa composition joue avec cette tension. Ce qui paraît séduisant de loin révèle quelque chose de plus tranchant de près. C'est le portrait du double lien dans lequel nous vivons : attirés par ce qui fait mal, en appelant cela du désir.\n\nPièce unique, 30 × 20 cm. Imprimée sur papier d'archives. Expédiée sans cadre.",
       },
+      de: {
+        title: "Demon",
+        description:
+          "Ein in Holz geschnitzter Holzschnitt, mit schwarzer Tinte gedruckt. Das Bild greift die widersprüchliche Stimmung der Gesellschaft auf: Dinge, die uns schaden und doch als angenehm erscheinen — Laster als Verführung, Schmerz als Intensität.\n\nDie Komposition spielt mit dieser Spannung. Was aus der Ferne verführerisch wirkt, offenbart aus der Nähe etwas Schärferes. Es ist das Porträt der Doppelbindung, in der wir leben: angezogen von dem, was wehtut, und es Begehren nennen.\n\nEinzelstück, 30 × 20 cm. Gedruckt auf Archivpapier. Ungerahmt versendet.",
+      },
     },
   },
   {
@@ -95,7 +105,7 @@ export const works: Work[] = [
     year: 2021,
     dimensions: "50 × 70 cm",
     images: ["/works/curva.webp", "/works/curva2.webp", "/works/curva3.webp"],
-    price: { amount: 900, currency: "GBP" },
+    price: { amount: 900, currency: "EUR" },
     available: true,
     content: {
       en: {
@@ -112,6 +122,11 @@ export const works: Work[] = [
         title: "Curva",
         description:
           "La Courbe peut se lire comme l'arc que la vie trace souvent : nous croyons être au sommet pour retomber aussitôt. Les extrêmes donnent l'impression d'avoir atteint une limite — puis une vague plus grande arrive.\n\nL'œuvre cartographie ce rythme visuellement. Pics et creux se répètent ; chaque sommet promet la permanence, chaque chute semble une fin. Mais le motif continue — jusqu'à ce que, peut-être, nous touchions le ciel du bonheur, et que la seule chute restante soit la dernière.\n\nPièce unique, 50 × 70 cm. Peinture acrylique sur toile. Expédiée sans cadre.",
+      },
+      de: {
+        title: "Curva",
+        description:
+          "Die Kurve lässt sich als der Bogen lesen, den das Leben oft zeichnet: Wir glauben, den Gipfel erreicht zu haben, nur um bald wieder zu fallen. Extreme lassen uns glauben, eine Grenze erreicht zu haben — doch eine größere Welle folgt immer.\n\nDas Werk kartiert diesen Rhythmus visuell. Gipfel und Täler wiederholen sich; jeder Höhepunkt verspricht Beständigkeit, jeder Abstieg fühlt sich wie ein Ende an. Doch das Muster geht weiter — bis wir vielleicht die Decke des Glücks erreichen und der einzige verbleibende Fall der letzte ist.\n\nEinzelstück, 50 × 70 cm. Acrylmalerei auf Leinwand. Ungerahmt versendet.",
       },
     },
   },

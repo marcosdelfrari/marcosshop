@@ -77,6 +77,7 @@ export function WorkCard({
             workTitle={content.title}
             workSlug={work.slug}
             labels={dict.inquiry}
+            privacyLabel={dict.nav.privacy}
             triggerLabel={
               work.available ? dict.works.inquire : dict.works.unavailable
             }
