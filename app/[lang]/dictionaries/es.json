@@ -21,7 +21,7 @@
     "title": "Obras",
     "viewAll": "Ver todas las obras",
     "viewWork": "Ver obra",
-    "inquire": "Consultar por WhatsApp",
+    "inquire": "Consultar",
     "unique": "Única",
     "edition": "Edición",
     "unavailable": "No disponible",
@@ -36,14 +36,16 @@
   },
   "inquiry": {
     "title": "Consultar sobre esta obra",
-    "subtitle": "Deja tus datos y continúa en WhatsApp para acordar disponibilidad y envío.",
+    "subtitle": "Deja tus datos. Recibirás una confirmación por correo y luego continúa en WhatsApp para acordar disponibilidad y envío.",
     "name": "Nombre",
     "email": "Correo",
     "phone": "Teléfono",
-    "submit": "Continuar en WhatsApp",
+    "submit": "Continuar",
+    "submitting": "Enviando…",
+    "submitError": "No se pudo enviar tu solicitud. Inténtalo de nuevo.",
     "cancel": "Cancelar",
     "required": "Campo obligatorio",
-    "privacyNotice": "Al continuar, tus datos se envían por WhatsApp para gestionar tu consulta. Consulta nuestra"
+    "privacyNotice": "Al continuar, tus datos se envían por correo como solicitud de compra y puedes continuar en WhatsApp. Consulta nuestra"
   },
   "about": {
     "title": "Quién soy",

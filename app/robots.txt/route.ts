@@ -1,3 +1,4 @@
+import { AI_CATALOG_URL } from "@/lib/ai-catalog";
 import { SITE_URL } from "@/lib/seo";
 
 const CONTENT_SIGNAL = "ai-train=no, search=yes, ai-input=yes";
@@ -27,6 +28,7 @@ export function GET() {
     lines.push(`User-agent: ${bot}`, "Allow: /", "Allow: /llms.txt", "");
   }
 
+  lines.push(`Agentmap: ${AI_CATALOG_URL}`, "");
   lines.push(`Sitemap: ${SITE_URL}/sitemap.xml`);
 
   return new Response(lines.join("\n"), {

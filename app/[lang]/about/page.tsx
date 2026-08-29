@@ -8,7 +8,7 @@ import { renderBioText } from "@/components/bio-text";
 import { FadeUp } from "@/components/fade-up";
 import { FaqSection } from "@/components/faq-section";
 import { JsonLd } from "@/components/json-ld";
-import { WhatsAppIcon } from "@/components/social-icons";
+import { ShoppingCart } from "lucide-react";
 import { SocialLinks } from "@/components/social-links";
 import { getFaqs } from "@/lib/faq";
 import { isLocale, type Locale } from "@/lib/i18n";
@@ -122,8 +122,8 @@ export default async function AboutPage({
                   rel="noopener noreferrer"
                   className="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-accent px-6 text-sm font-medium text-accent-fg transition-opacity hover:opacity-90"
                 >
-                  <WhatsAppIcon size={18} />
-                  WhatsApp
+                  <ShoppingCart size={18} aria-hidden />
+                  {dict.nav.contact}
                 </a>
                 <Link
                   href={`/${lang}`}

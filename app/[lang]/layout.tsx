@@ -3,11 +3,14 @@ import { Outfit } from "next/font/google";
 import { notFound } from "next/navigation";
 
 import { getDictionary } from "@/app/[lang]/dictionaries";
+import { GoogleAnalytics } from "@/components/google-analytics";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import { buildHomeMetadata, SITE_URL } from "@/lib/seo";
+import { AI_CATALOG_URL } from "@/lib/ai-catalog";
 import { siteConfig } from "@/lib/site";
+import { buildWebMcpInitScript } from "@/lib/webmcp";
 
 import "../globals.css";
 
@@ -63,9 +66,16 @@ export default async function LangLayout({
     <html lang={lang} className={`${outfit.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: buildWebMcpInitScript(lang as Locale),
+          }}
+        />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM discovery" />
+        <link rel="ai-catalog" href={AI_CATALOG_URL} />
       </head>
       <body className="flex min-h-dvh flex-col font-sans text-foreground">
+        <GoogleAnalytics />
         <SiteHeader lang={lang as Locale} dict={dict} />
         <main className="mx-auto w-full max-w-6xl flex-1 px-5 py-10 sm:px-8 lg:px-12 lg:py-14">
           {children}

@@ -1,3 +1,4 @@
+import { dnsAidOwnerNames } from "@/lib/dns-aid";
 import { locales, type Locale } from "@/lib/i18n";
 import { absoluteUrl, localizedPath, SITE_NAME, SITE_URL } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
@@ -77,6 +78,12 @@ export function buildLlmsTxt(): string {
     "",
     `- Sitemap: ${absoluteUrl("/sitemap.xml")}`,
     `- Robots: ${absoluteUrl("/robots.txt")}`,
+    `- Agent skills: ${absoluteUrl("/.well-known/agent-skills/index.json")}`,
+    `- AI catalog (ARD): ${absoluteUrl("/.well-known/ai-catalog.json")}`,
+    `- API catalog: ${absoluteUrl("/.well-known/api-catalog")}`,
+    `- MCP server card: ${absoluteUrl("/.well-known/mcp/server-card.json")}`,
+    `- MCP endpoint: ${absoluteUrl("/mcp")}`,
+    `- DNS-AID (HTTPS/SVCB): ${dnsAidOwnerNames().join(", ")}`,
     "",
     "## Citation policy",
     "",

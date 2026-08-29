@@ -77,7 +77,7 @@ export default async function PrivacyPage({
             href={`https://wa.me/${siteConfig.whatsappNumber}`}
             className="mt-2 inline-flex font-medium text-foreground underline underline-offset-2"
           >
-            WhatsApp
+            {dict.nav.contact}
           </a>
         </footer>
       </article>

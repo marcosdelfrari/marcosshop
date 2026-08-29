@@ -21,7 +21,7 @@
     "title": "Works",
     "viewAll": "See all works",
     "viewWork": "View work",
-    "inquire": "Inquire on WhatsApp",
+    "inquire": "Inquire",
     "unique": "Unique",
     "edition": "Edition",
     "unavailable": "Unavailable",
@@ -36,14 +36,16 @@
   },
   "inquiry": {
     "title": "Inquire about this work",
-    "subtitle": "Leave your details and continue on WhatsApp to arrange availability and shipping.",
+    "subtitle": "Leave your details. You'll receive a confirmation by email, then continue on WhatsApp to finalize availability and shipping.",
     "name": "Name",
     "email": "Email",
     "phone": "Phone",
-    "submit": "Continue on WhatsApp",
+    "submit": "Continue",
+    "submitting": "Sending…",
+    "submitError": "Could not send your request. Please try again.",
     "cancel": "Cancel",
     "required": "Required field",
-    "privacyNotice": "By continuing, your details are sent via WhatsApp to arrange your inquiry. See our"
+    "privacyNotice": "By continuing, your details are emailed as a purchase request and you may continue on WhatsApp. See our"
   },
   "about": {
     "title": "Who I am",

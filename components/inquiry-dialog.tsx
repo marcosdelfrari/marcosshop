@@ -1,11 +1,11 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
+import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import { useId, useRef, useState } from "react";
 
 import type { Dictionary } from "@/app/[lang]/dictionaries";
-import { WhatsAppIcon } from "@/components/social-icons";
 import type { Locale } from "@/lib/i18n";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
@@ -40,8 +40,11 @@ export function InquiryDialog({
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   function open() {
+    setError(null);
     dialogRef.current?.showModal();
     setVisible(true);
   }
@@ -56,18 +59,47 @@ export function InquiryDialog({
     setVisible(false);
   }
 
-  function onSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const url = buildWhatsAppUrl({
+    setError(null);
+    setSubmitting(true);
+
+    const payload = {
       name: name.trim(),
       email: email.trim(),
       phone: phone.trim(),
       workTitle,
       workSlug,
       locale: lang,
-    });
-    window.open(url, "_blank", "noopener,noreferrer");
-    close();
+    };
+
+    try {
+      const response = await fetch("/api/inquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        const data = (await response.json().catch(() => null)) as {
+          error?: string;
+        } | null;
+        throw new Error(data?.error ?? labels.submitError);
+      }
+
+      const url = buildWhatsAppUrl(payload);
+      window.open(url, "_blank", "noopener,noreferrer");
+      setName("");
+      setEmail("");
+      setPhone("");
+      close();
+    } catch (submitError) {
+      setError(
+        submitError instanceof Error ? submitError.message : labels.submitError,
+      );
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   const panelMotion = reduce
@@ -91,7 +123,7 @@ export function InquiryDialog({
         disabled={disabled}
         className={triggerClassName ?? defaultTriggerClassName}
       >
-        {!disabled && <WhatsAppIcon size={18} />}
+        {!disabled && <ShoppingCart size={18} aria-hidden />}
         {triggerLabel}
       </button>
 
@@ -162,20 +194,28 @@ export function InquiryDialog({
             .
           </p>
 
+          {error ? (
+            <p className="text-sm text-red-600 dark:text-red-400" role="alert">
+              {error}
+            </p>
+          ) : null}
+
           <div className="flex flex-col-reverse gap-3 pt-1 sm:flex-row">
             <button
               type="button"
               onClick={close}
-              className="inline-flex h-12 flex-1 items-center justify-center rounded-lg border border-border bg-transparent px-4 text-sm font-medium transition-colors hover:bg-foreground/5"
+              disabled={submitting}
+              className="inline-flex h-12 flex-1 items-center justify-center rounded-lg border border-border bg-transparent px-4 text-sm font-medium transition-colors hover:bg-foreground/5 disabled:opacity-50"
             >
               {labels.cancel}
             </button>
             <button
               type="submit"
-              className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-lg bg-accent px-4 text-sm font-medium text-accent-fg transition-opacity hover:opacity-90"
+              disabled={submitting}
+              className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-lg bg-accent px-4 text-sm font-medium text-accent-fg transition-opacity hover:opacity-90 disabled:opacity-60"
             >
-              <WhatsAppIcon size={18} />
-              {labels.submit}
+              <ShoppingCart size={18} aria-hidden />
+              {submitting ? labels.submitting : labels.submit}
             </button>
           </div>
         </motion.form>

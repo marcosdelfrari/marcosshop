@@ -21,7 +21,7 @@
     "title": "Werke",
     "viewAll": "Alle Werke ansehen",
     "viewWork": "Werk ansehen",
-    "inquire": "Anfrage per WhatsApp",
+    "inquire": "Anfragen",
     "unique": "Einzelstück",
     "edition": "Auflage",
     "unavailable": "Nicht verfügbar",
@@ -36,14 +36,16 @@
   },
   "inquiry": {
     "title": "Anfrage zu diesem Werk",
-    "subtitle": "Hinterlassen Sie Ihre Daten und fahren Sie auf WhatsApp fort, um Verfügbarkeit und Versand zu klären.",
+    "subtitle": "Hinterlassen Sie Ihre Daten. Sie erhalten eine Bestätigung per E-Mail und fahren dann auf WhatsApp fort, um Verfügbarkeit und Versand zu klären.",
     "name": "Name",
     "email": "E-Mail",
     "phone": "Telefon",
-    "submit": "Weiter auf WhatsApp",
+    "submit": "Weiter",
+    "submitting": "Wird gesendet…",
+    "submitError": "Anfrage konnte nicht gesendet werden. Bitte erneut versuchen.",
     "cancel": "Abbrechen",
     "required": "Pflichtfeld",
-    "privacyNotice": "Mit dem Fortfahren werden Ihre Daten per WhatsApp zur Bearbeitung Ihrer Anfrage übermittelt. Siehe unsere"
+    "privacyNotice": "Mit dem Fortfahren werden Ihre Daten per E-Mail als Kaufanfrage gesendet und Sie können auf WhatsApp fortfahren. Siehe unsere"
   },
   "about": {
     "title": "Über mich",
