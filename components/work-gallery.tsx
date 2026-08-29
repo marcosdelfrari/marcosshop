@@ -20,7 +20,7 @@ export function WorkGallery({ images, title }: WorkGalleryProps) {
         <Image
           key={activeSrc}
           src={activeSrc}
-          alt={activeIndex === 0 ? title : `${title} — ${activeIndex + 1}`}
+          alt={activeIndex === 0 ? title : `${title} (${activeIndex + 1})`}
           width={1600}
           height={1600}
           priority={activeIndex === 0}
@@ -44,7 +44,7 @@ export function WorkGallery({ images, title }: WorkGalleryProps) {
                 type="button"
                 role="tab"
                 aria-selected={selected}
-                aria-label={`${title} — ${index + 1}`}
+                aria-label={`${title} (${index + 1})`}
                 onClick={() => setActiveIndex(index)}
                 className={`relative aspect-square cursor-pointer overflow-hidden transition-opacity ${
                   selected

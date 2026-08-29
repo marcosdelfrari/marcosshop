@@ -151,7 +151,7 @@ export async function buildAboutMarkdown(locale: Locale): Promise<MarkdownPage> 
   const faqs = getFaqs(locale);
   const title = `${dict.about.title} · ${siteConfig.name}`;
   const description = dict.about.body;
-  const image = absoluteUrl("/avatar.webp");
+  const image = absoluteUrl("/avatar.png");
 
   const body = [
     `# ${siteConfig.name}`,

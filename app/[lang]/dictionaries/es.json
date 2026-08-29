@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Marcos Lucas · Grabados y pinturas originales",
-    "description": "Espacio personal para xilografías, linóleos y pinturas hechas a mano — obra acumulada a lo largo de los años. Piezas únicas desde Brasil, con envío a Europa."
+    "description": "Espacio personal para xilografías, linóleos y pinturas hechas a mano. Obra acumulada a lo largo de los años. Piezas únicas desde Brasil, con envío a Europa."
   },
   "nav": {
     "works": "Obras",
@@ -14,7 +14,7 @@
     "kicker": "Mi obra",
     "titleStrong": "Pocas piezas.",
     "titleSoft": "Hechas a mano.",
-    "tagline": "Un rincón de internet para lo que he tallado, impreso y pintado con los años — obra de la vida, no de un catálogo.",
+    "tagline": "Un rincón de internet para lo que he tallado, impreso y pintado con los años. Obra de la vida, no de un catálogo.",
     "cta": "Ver obras"
   },
   "works": {
@@ -55,8 +55,8 @@
   "about": {
     "title": "Quién soy",
     "kicker": "Sobre mí",
-    "body": "Artista brasileño e ingeniero front-end de Belo Horizonte — esta tienda es donde muestro la obra que la vida me fue dejando.",
-    "homeIntro": "Hola, soy {name}. Este es mi espacio para exponer lo que he hecho en el camino — grabados y pinturas, a mano. Nada grandioso, solo mío.",
+    "body": "Artista brasileño e ingeniero front-end de Belo Horizonte. Esta tienda es donde muestro la obra que la vida me fue dejando.",
+    "homeIntro": "Hola, soy {name}. Este es mi espacio para exponer lo que he hecho en el camino: grabados y pinturas, a mano. Nada grandioso, solo mío.",
     "readMore": "Saber más sobre mí",
     "intro": "Tengo {age} años, soy brasileño y natural de Belo Horizonte. Profesionalmente soy ingeniero de software front-end. Esa parte de mí está en {portfolio}.",
     "paragraphs": [
@@ -82,14 +82,14 @@
   "positioning": {
     "title": "Un espacio personal para la obra que deja la vida",
     "paragraphs": [
-      "Esta tienda es simplemente donde pongo piezas que he hecho a lo largo de los años — xilografías, linóleos, pinturas. No es una marca ni un plan de carrera. Solo trabajo que se acumuló y merece existir en algún lugar.",
+      "Esta tienda es simplemente donde pongo piezas que he hecho a lo largo de los años: xilografías, linóleos, pinturas. No es una marca ni un plan de carrera. Solo trabajo que se acumuló y merece existir en algún lugar.",
       "Todo aquí está hecho a mano, en pequeña cantidad o como piezas únicas. Si algo te habla, hablamos por WhatsApp. Respondo yo.",
       "Vivo en Belo Horizonte, Brasil. Las piezas se envían sin marco a Europa y otros lugares. Puedes mirar, consultar o simplemente ver."
     ]
   },
   "privacy": {
     "title": "Política de privacidad",
-    "summary": "Esta política explica cómo Marcos Lucas trata los datos personales cuando consultas sobre una obra — especialmente si te encuentras en el Reino Unido o la Unión Europea.",
+    "summary": "Esta política explica cómo Marcos Lucas trata los datos personales cuando consultas sobre una obra, especialmente si te encuentras en el Reino Unido o la Unión Europea.",
     "updated": "Última actualización: agosto de 2026",
     "contact": "¿Preguntas sobre tus datos? Contacta a Marcos directamente por WhatsApp.",
     "sections": [
@@ -103,7 +103,7 @@
         "title": "Qué datos recopilamos",
         "paragraphs": [
           "Al usar el formulario de consulta en una obra, puedes facilitar tu nombre, correo electrónico y teléfono. Tú decides qué introducir; los tres campos son obligatorios para continuar.",
-          "Este sitio no utiliza analítica, rastreadores publicitarios ni cuentas de usuario. La preferencia de tema (claro/oscuro) puede guardarse solo en el almacenamiento local de tu navegador — no se envía a ningún servidor."
+          "Este sitio no utiliza analítica, rastreadores publicitarios ni cuentas de usuario. La preferencia de tema (claro/oscuro) puede guardarse solo en el almacenamiento local de tu navegador. No se envía a ningún servidor."
         ]
       },
       {

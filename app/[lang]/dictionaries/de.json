@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Marcos Lucas · Originaldrucke & Gemälde",
-    "description": "Persönlicher Raum für handgemachte Holzschnitte, Linoldrucke und Acrylgemälde — Werke, die über die Jahre entstanden sind. Einzelstücke aus Brasilien, Versand in Europa."
+    "description": "Persönlicher Raum für handgemachte Holzschnitte, Linoldrucke und Acrylgemälde. Werke, die über die Jahre entstanden sind. Einzelstücke aus Brasilien, Versand in Europa."
   },
   "nav": {
     "works": "Werke",
@@ -14,7 +14,7 @@
     "kicker": "Meine Arbeit",
     "titleStrong": "Wenige Stücke.",
     "titleSoft": "Von Hand gemacht.",
-    "tagline": "Eine kleine Ecke im Internet für das, was ich über die Jahre geschnitzt, gedruckt und gemalt habe — Arbeit aus dem Leben, nicht aus einem Katalog.",
+    "tagline": "Eine kleine Ecke im Internet für das, was ich über die Jahre geschnitzt, gedruckt und gemalt habe. Arbeit aus dem Leben, nicht aus einem Katalog.",
     "cta": "Werke ansehen"
   },
   "works": {
@@ -55,14 +55,14 @@
   "about": {
     "title": "Über mich",
     "kicker": "Profil",
-    "body": "Brasilianischer Künstler und Front-end-Entwickler aus Belo Horizonte — dieser Shop ist der Ort, an dem ich die Werke zeige, die das Leben mir hinterlassen hat.",
-    "homeIntro": "Hallo, ich bin {name}. Das ist mein Raum, um die Arbeit zu zeigen, die ich unterwegs gemacht habe — Drucke und Gemälde, von Hand. Nichts Großes, nur meins.",
+    "body": "Brasilianischer Künstler und Front-end-Entwickler aus Belo Horizonte. Dieser Shop ist der Ort, an dem ich die Werke zeige, die das Leben mir hinterlassen hat.",
+    "homeIntro": "Hallo, ich bin {name}. Das ist mein Raum, um die Arbeit zu zeigen, die ich unterwegs gemacht habe: Drucke und Gemälde, von Hand. Nichts Großes, nur meins.",
     "readMore": "Mehr über mich",
     "intro": "Ich bin {age}, Brasilianer aus Belo Horizonte. Beruflich bin ich Front-end-Softwareentwickler. Diese Seite von mir finden Sie unter {portfolio}.",
     "paragraphs": [
-      "Dieser Raum, die Drucke und handgemachten Stücke, ist eher eine spielerische Art zu leben. Keine zweite Karriere — nur Neugier und Handwerk.",
+      "Dieser Raum, die Drucke und handgemachten Stücke, ist eher eine spielerische Art zu leben. Keine zweite Karriere, nur Neugier und Handwerk.",
       "Im Laufe der Jahre habe ich eigene Werke in verschiedenen Formen geschaffen, an Theaterworkshops in der Pena Escola Arena teilgenommen und mich für Sozialwissenschaften und Kulturproduktion interessiert.",
-      "Ich lerne gern und erkunde, was das Leben vor mich hinstellt. Ich habe meine eigene Sicht auf die Welt — und manchmal landet sie auf Papier."
+      "Ich lerne gern und erkunde, was das Leben vor mich hinstellt. Ich habe meine eigene Sicht auf die Welt, und manchmal landet sie auf Papier."
     ],
     "contact": "Lieber ein direktes Gespräch? Schreiben Sie mir auf WhatsApp. Ich antworte persönlich."
   },
@@ -82,14 +82,14 @@
   "positioning": {
     "title": "Ein persönlicher Raum für die Arbeit, die das Leben hinterlässt",
     "paragraphs": [
-      "Dieser Shop ist einfach der Ort, an dem ich Stücke unterbringe, die ich über die Jahre gemacht habe — Holzschnitte, Linoldrucke, Gemälde. Keine Marke, kein Karriereschritt. Nur Arbeit, die sich angesammelt hat und irgendwo existieren darf.",
+      "Dieser Shop ist einfach der Ort, an dem ich Stücke unterbringe, die ich über die Jahre gemacht habe: Holzschnitte, Linoldrucke, Gemälde. Keine Marke, kein Karriereschritt. Nur Arbeit, die sich angesammelt hat und irgendwo existieren darf.",
       "Alles hier ist von Hand gemacht, in kleiner Zahl oder als Einzelstücke. Wenn etwas Sie anspricht, sprechen wir auf WhatsApp. Ich antworte selbst.",
       "Ich lebe in Belo Horizonte, Brasilien. Werke werden ungerahmt nach Europa und anderswo versendet. Schauen Sie, fragen Sie an, oder schauen Sie einfach nur."
     ]
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "summary": "Diese Erklärung beschreibt, wie Marcos Lucas personenbezogene Daten verarbeitet, wenn Sie eine Anfrage zu einem Werk stellen — insbesondere wenn Sie im Vereinigten Königreich oder in der Europäischen Union ansässig sind.",
+    "summary": "Diese Erklärung beschreibt, wie Marcos Lucas personenbezogene Daten verarbeitet, wenn Sie eine Anfrage zu einem Werk stellen, insbesondere wenn Sie im Vereinigten Königreich oder in der Europäischen Union ansässig sind.",
     "updated": "Zuletzt aktualisiert: August 2026",
     "contact": "Fragen zu Ihren Daten? Kontaktieren Sie Marcos direkt per WhatsApp.",
     "sections": [
@@ -103,7 +103,7 @@
         "title": "Welche Daten wir erheben",
         "paragraphs": [
           "Wenn Sie das Anfrageformular auf einer Werkseite nutzen, können Sie Name, E-Mail-Adresse und Telefonnummer angeben. Sie entscheiden, was Sie eingeben; alle drei Felder sind zum Fortfahren erforderlich.",
-          "Diese Website verwendet keine Analyse-Tools, Werbe-Tracker oder Benutzerkonten. Die Theme-Einstellung (hell/dunkel) kann nur im lokalen Speicher Ihres Browsers gespeichert werden — sie wird nicht an einen Server gesendet."
+          "Diese Website verwendet keine Analyse-Tools, Werbe-Tracker oder Benutzerkonten. Die Theme-Einstellung (hell/dunkel) kann nur im lokalen Speicher Ihres Browsers gespeichert werden, sie wird nicht an einen Server gesendet."
         ]
       },
       {

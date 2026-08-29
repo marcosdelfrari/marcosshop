@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Marcos Lucas · Estampes et peintures originales",
-    "description": "Espace personnel pour xylographies, linogravures et peintures faites main — œuvres accumulées au fil des années. Pièces uniques du Brésil, expédiées en Europe."
+    "description": "Espace personnel pour xylographies, linogravures et peintures faites main. Œuvres accumulées au fil des années. Pièces uniques du Brésil, expédiées en Europe."
   },
   "nav": {
     "works": "Œuvres",
@@ -14,7 +14,7 @@
     "kicker": "Mon œuvre",
     "titleStrong": "Peu de pièces.",
     "titleSoft": "Faites à la main.",
-    "tagline": "Un coin d'internet pour ce que j'ai gravé, imprimé et peint au fil des années — du travail de vie, pas d'un catalogue.",
+    "tagline": "Un coin d'internet pour ce que j'ai gravé, imprimé et peint au fil des années. Du travail de vie, pas d'un catalogue.",
     "cta": "Voir les œuvres"
   },
   "works": {
@@ -55,8 +55,8 @@
   "about": {
     "title": "Qui suis-je",
     "kicker": "À propos",
-    "body": "Artiste brésilien et ingénieur front-end de Belo Horizonte — cette boutique est l'endroit où je montre l'œuvre que la vie m'a laissée.",
-    "homeIntro": "Bonjour, je suis {name}. C'est mon espace pour exposer ce que j'ai fait en chemin — estampes et peintures, à la main. Rien de grandiose, juste les miennes.",
+    "body": "Artiste brésilien et ingénieur front-end de Belo Horizonte. Cette boutique est l'endroit où je montre l'œuvre que la vie m'a laissée.",
+    "homeIntro": "Bonjour, je suis {name}. C'est mon espace pour exposer ce que j'ai fait en chemin: estampes et peintures, à la main. Rien de grandiose, juste les miennes.",
     "readMore": "En savoir plus sur moi",
     "intro": "J'ai {age} ans, je suis brésilien et originaire de Belo Horizonte. Professionnellement, je suis ingénieur logiciel front-end. Cette part de moi est sur {portfolio}.",
     "paragraphs": [
@@ -82,14 +82,14 @@
   "positioning": {
     "title": "Un espace personnel pour l'œuvre que la vie laisse",
     "paragraphs": [
-      "Cette boutique, c'est simplement l'endroit où je mets des pièces que j'ai faites au fil des années — xylographies, linogravures, peintures. Pas une marque, pas un plan de carrière. Juste du travail accumulé qui mérite d'exister quelque part.",
+      "Cette boutique, c'est simplement l'endroit où je mets des pièces que j'ai faites au fil des années: xylographies, linogravures, peintures. Pas une marque, pas un plan de carrière. Juste du travail accumulé qui mérite d'exister quelque part.",
       "Tout ici est fait à la main, en petit nombre ou en pièces uniques. Si quelque chose vous parle, on en parle sur WhatsApp. Je réponds moi-même.",
       "Je vis à Belo Horizonte, au Brésil. Les pièces partent sans cadre vers l'Europe et ailleurs. Vous pouvez parcourir, demander, ou simplement regarder."
     ]
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "summary": "Cette politique explique comment Marcos Lucas traite les données personnelles lorsque vous demandez des renseignements sur une œuvre — notamment si vous êtes au Royaume-Uni ou dans l'Union européenne.",
+    "summary": "Cette politique explique comment Marcos Lucas traite les données personnelles lorsque vous demandez des renseignements sur une œuvre, notamment si vous êtes au Royaume-Uni ou dans l'Union européenne.",
     "updated": "Dernière mise à jour : août 2026",
     "contact": "Des questions sur vos données ? Contactez Marcos directement sur WhatsApp.",
     "sections": [
@@ -103,7 +103,7 @@
         "title": "Données collectées",
         "paragraphs": [
           "Lorsque vous utilisez le formulaire de demande sur une œuvre, vous pouvez indiquer votre nom, adresse e-mail et numéro de téléphone. Vous choisissez ce que vous saisissez ; les trois champs sont requis pour continuer.",
-          "Ce site n'utilise pas d'analytique, de traceurs publicitaires ni de compte utilisateur. La préférence de thème (clair/sombre) peut être stockée uniquement dans le stockage local de votre navigateur — elle n'est pas envoyée à un serveur."
+          "Ce site n'utilise pas d'analytique, de traceurs publicitaires ni de compte utilisateur. La préférence de thème (clair/sombre) peut être stockée uniquement dans le stockage local de votre navigateur. Elle n'est pas envoyée à un serveur."
         ]
       },
       {

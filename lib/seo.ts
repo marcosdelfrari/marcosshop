@@ -209,7 +209,7 @@ export function buildPersonJsonLd(locale: Locale): JsonLd {
     "@id": `${SITE_URL}/#person`,
     name: SITE_NAME,
     url: absoluteUrl(localizedPath(locale, "about")),
-    image: absoluteUrl("/avatar.webp"),
+    image: absoluteUrl("/avatar.png"),
     jobTitle: jobTitles[locale],
     nationality: { "@type": "Country", name: "Brazil" },
     homeLocation: {
@@ -324,17 +324,17 @@ const workGenres: Record<Locale, string> = {
 };
 
 const siteDescriptions: Record<Locale, string> = {
-  en: "Personal space for hand-made woodcuts, linoleum prints and acrylic paintings by Marcos Lucas — work accumulated over the years. Unique pieces from Brazil, shipped across Europe.",
-  es: "Espacio personal para xilografías, linóleos y pinturas hechas a mano por Marcos Lucas — obra acumulada a lo largo de los años. Piezas únicas desde Brasil, con envío a Europa.",
-  fr: "Espace personnel pour xylographies, linogravures et peintures faites main par Marcos Lucas — œuvres accumulées au fil des années. Pièces uniques du Brésil, expédiées en Europe.",
-  de: "Persönlicher Raum für handgemachte Holzschnitte, Linoldrucke und Acrylgemälde von Marcos Lucas — Werke, die über die Jahre entstanden sind. Einzelstücke aus Brasilien, Versand in Europa.",
+  en: "Personal space for hand-made woodcuts, linoleum prints and acrylic paintings by Marcos Lucas. Work accumulated over the years. Unique pieces from Brazil, shipped across Europe.",
+  es: "Espacio personal para xilografías, linóleos y pinturas hechas a mano por Marcos Lucas. Obra acumulada a lo largo de los años. Piezas únicas desde Brasil, con envío a Europa.",
+  fr: "Espace personnel pour xylographies, linogravures et peintures faites main par Marcos Lucas. Œuvres accumulées au fil des années. Pièces uniques du Brésil, expédiées en Europe.",
+  de: "Persönlicher Raum für handgemachte Holzschnitte, Linoldrucke und Acrylgemälde von Marcos Lucas. Werke, die über die Jahre entstanden sind. Einzelstücke aus Brasilien, Versand in Europa.",
 };
 
 const siteTaglines: Record<Locale, string> = {
-  en: "Few pieces, made by hand — work from life.",
-  es: "Pocas piezas, hechas a mano — obra de la vida.",
-  fr: "Peu de pièces, faites à la main — œuvre de vie.",
-  de: "Wenige Stücke, von Hand gemacht — Arbeit aus dem Leben.",
+  en: "Few pieces, made by hand. Work from life.",
+  es: "Pocas piezas, hechas a mano. Obra de la vida.",
+  fr: "Peu de pièces, faites à la main. Œuvre de vie.",
+  de: "Wenige Stücke, von Hand gemacht. Arbeit aus dem Leben.",
 };
 
 const siteKeywords: Record<Locale, string[]> = {
@@ -386,10 +386,10 @@ const siteKeywords: Record<Locale, string[]> = {
 };
 
 const collectionTitles: Record<Locale, string> = {
-  en: "Original prints & paintings — work from life",
-  es: "Grabados y pinturas originales — obra de la vida",
-  fr: "Estampes et peintures originales — œuvre de vie",
-  de: "Originaldrucke & Gemälde — Arbeit aus dem Leben",
+  en: "Original prints & paintings from life",
+  es: "Grabados y pinturas originales de la vida",
+  fr: "Estampes et peintures originales de la vie",
+  de: "Originaldrucke & Gemälde aus dem Leben",
 };
 
 const jobTitles: Record<Locale, string> = {

@@ -11,7 +11,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "Do you ship original art to Europe?",
       answer:
-        "Yes. Each piece ships unframed from Brazil to addresses across the UK and the European Union. Shipping cost and delivery time depend on destination and carrier — message on WhatsApp before purchase and Marcos will confirm options for your country.",
+        "Yes. Each piece ships unframed from Brazil to addresses across the UK and the European Union. Shipping cost and delivery time depend on destination and carrier. Message on WhatsApp before purchase and Marcos will confirm options for your country.",
     },
     {
       question: "Are these prints original or reproductions?",
@@ -21,12 +21,12 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "What is this shop?",
       answer:
-        "A personal space where Marcos Lucas shows work made over the years — woodcuts, linoleum prints and paintings. Not a gallery, not a brand. Just a place to put pieces that accumulated along the way.",
+        "A personal space where Marcos Lucas shows work made over the years: woodcuts, linoleum prints and paintings. Not a gallery, not a brand. Just a place to put pieces that accumulated along the way.",
     },
     {
       question: "How does buying work here?",
       answer:
-        "You choose a piece and message on WhatsApp. Marcos replies personally — no intermediary, no automated checkout. Availability, price in EUR and shipping to your country are agreed in conversation.",
+        "You choose a piece and message on WhatsApp. Marcos replies personally. No intermediary, no automated checkout. Availability, price in EUR and shipping to your country are agreed in conversation.",
     },
     {
       question: "How do I buy a work from this shop?",
@@ -36,7 +36,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "What printmaking techniques does Marcos Lucas use?",
       answer:
-        "The catalogue includes traditional woodcut (xilogravura), hand-carved linoleum block printing, and acrylic painting on canvas. Each technique is executed manually — carved blocks, hand-pulled impressions, or direct painting.",
+        "The catalogue includes traditional woodcut (xilogravura), hand-carved linoleum block printing, and acrylic painting on canvas. Each technique is executed manually: carved blocks, hand-pulled impressions, or direct painting.",
     },
     {
       question: "Are the artworks sold framed?",
@@ -52,7 +52,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "¿Envías obras originales a Europa?",
       answer:
-        "Sí. Cada pieza se envía sin marco desde Brasil a direcciones en el Reino Unido y la Unión Europea. El coste y el plazo dependen del destino — escribe por WhatsApp antes de comprar y Marcos confirmará las opciones para tu país.",
+        "Sí. Cada pieza se envía sin marco desde Brasil a direcciones en el Reino Unido y la Unión Europea. El coste y el plazo dependen del destino. Escribe por WhatsApp antes de comprar y Marcos confirmará las opciones para tu país.",
     },
     {
       question: "¿Son grabados originales o reproducciones?",
@@ -62,12 +62,12 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "¿Qué es esta tienda?",
       answer:
-        "Un espacio personal donde Marcos Lucas muestra obra hecha a lo largo de los años — xilografías, linóleos y pinturas. No es una galería ni una marca. Solo un lugar para poner piezas que se fueron acumulando.",
+        "Un espacio personal donde Marcos Lucas muestra obra hecha a lo largo de los años: xilografías, linóleos y pinturas. No es una galería ni una marca. Solo un lugar para poner piezas que se fueron acumulando.",
     },
     {
       question: "¿Cómo funciona la compra aquí?",
       answer:
-        "Eliges una pieza y escribes por WhatsApp. Marcos responde personalmente — sin intermediario, sin checkout automático. Disponibilidad, precio en EUR y envío a tu país se acuerdan en conversación.",
+        "Eliges una pieza y escribes por WhatsApp. Marcos responde personalmente. Sin intermediario, sin checkout automático. Disponibilidad, precio en EUR y envío a tu país se acuerdan en conversación.",
     },
     {
       question: "¿Cómo compro una obra?",
@@ -93,7 +93,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "Expédiez-vous des œuvres originales en Europe ?",
       answer:
-        "Oui. Chaque pièce est expédiée sans cadre depuis le Brésil vers le Royaume-Uni et l'Union européenne. Les frais et délais dépendent de la destination — écrivez sur WhatsApp avant l'achat et Marcos confirmera les options pour votre pays.",
+        "Oui. Chaque pièce est expédiée sans cadre depuis le Brésil vers le Royaume-Uni et l'Union européenne. Les frais et délais dépendent de la destination. Écrivez sur WhatsApp avant l'achat et Marcos confirmera les options pour votre pays.",
     },
     {
       question: "S'agit-il d'estampes originales ou de reproductions ?",
@@ -103,12 +103,12 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "Qu'est-ce que cette boutique ?",
       answer:
-        "Un espace personnel où Marcos Lucas montre des œuvres faites au fil des années — xylographies, linogravures et peintures. Pas une galerie, pas une marque. Juste un endroit pour mettre des pièces accumulées en chemin.",
+        "Un espace personnel où Marcos Lucas montre des œuvres faites au fil des années: xylographies, linogravures et peintures. Pas une galerie, pas une marque. Juste un endroit pour mettre des pièces accumulées en chemin.",
     },
     {
       question: "Comment acheter ici ?",
       answer:
-        "Vous choisissez une pièce et écrivez sur WhatsApp. Marcos répond personnellement — pas d'intermédiaire, pas de paiement automatique. Disponibilité, prix en EUR et livraison vers votre pays se règlent en conversation.",
+        "Vous choisissez une pièce et écrivez sur WhatsApp. Marcos répond personnellement. Pas d'intermédiaire, pas de paiement automatique. Disponibilité, prix en EUR et livraison vers votre pays se règlent en conversation.",
     },
     {
       question: "Comment acheter une œuvre ?",
@@ -134,7 +134,7 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "Versenden Sie Originalkunst nach Europa?",
       answer:
-        "Ja. Jedes Werk wird ungerahmt aus Brasilien in das Vereinigte Königreich und die Europäische Union geliefert. Versandkosten und Lieferzeit hängen vom Ziel ab — schreiben Sie vor dem Kauf per WhatsApp, Marcos bestätigt die Optionen für Ihr Land.",
+        "Ja. Jedes Werk wird ungerahmt aus Brasilien in das Vereinigte Königreich und die Europäische Union geliefert. Versandkosten und Lieferzeit hängen vom Ziel ab. Schreiben Sie vor dem Kauf per WhatsApp, Marcos bestätigt die Optionen für Ihr Land.",
     },
     {
       question: "Sind das Originaldrucke oder Reproduktionen?",
@@ -144,12 +144,12 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
     {
       question: "Was ist dieser Shop?",
       answer:
-        "Ein persönlicher Raum, in dem Marcos Lucas Werke zeigt, die er über die Jahre gemacht hat — Holzschnitte, Linoldrucke und Gemälde. Keine Galerie, keine Marke. Einfach ein Ort für Stücke, die unterwegs entstanden sind.",
+        "Ein persönlicher Raum, in dem Marcos Lucas Werke zeigt, die er über die Jahre gemacht hat: Holzschnitte, Linoldrucke und Gemälde. Keine Galerie, keine Marke. Einfach ein Ort für Stücke, die unterwegs entstanden sind.",
     },
     {
       question: "Wie funktioniert der Kauf hier?",
       answer:
-        "Sie wählen ein Stück und schreiben per WhatsApp. Marcos antwortet persönlich — kein Mittler, kein automatischer Checkout. Verfügbarkeit, Preis in EUR und Versand in Ihr Land werden im Gespräch geklärt.",
+        "Sie wählen ein Stück und schreiben per WhatsApp. Marcos antwortet persönlich. Kein Mittler, kein automatischer Checkout. Verfügbarkeit, Preis in EUR und Versand in Ihr Land werden im Gespräch geklärt.",
     },
     {
       question: "Wie kaufe ich ein Werk?",

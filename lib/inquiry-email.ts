@@ -33,7 +33,7 @@ function buildOwnerOrderEmail(inquiry: InquiryRequest) {
   const url = workUrl(inquiry.workSlug, inquiry.locale as Locale);
 
   return {
-    subject: `New purchase request — ${inquiry.workTitle}`,
+    subject: `New purchase request, ${inquiry.workTitle}`,
     html: `
       <h1>New purchase request</h1>
       <p>A visitor submitted a purchase inquiry on the shop.</p>
@@ -76,7 +76,7 @@ const customerCopy: Record<Locale, CustomerCopy> = {
     body: [
       "Thank you for your interest in my work. Your purchase request has been received successfully.",
       "I will review the exclusivity of the piece and get back to you to confirm availability, price and shipping.",
-      "You can also continue the conversation on WhatsApp — I reply personally.",
+      "You can also continue the conversation on WhatsApp, I reply personally.",
     ],
     closing: "Marcos Lucas",
   },
@@ -86,7 +86,7 @@ const customerCopy: Record<Locale, CustomerCopy> = {
     body: [
       "Gracias por tu interés en mi obra. Tu solicitud de compra fue recibida con éxito.",
       "Revisaré la exclusividad de la pieza y me pondré en contacto contigo para confirmar disponibilidad, precio y envío.",
-      "También puedes continuar la conversación por WhatsApp — respondo personalmente.",
+      "También puedes continuar la conversación por WhatsApp, respondo personalmente.",
     ],
     closing: "Marcos Lucas",
   },
@@ -96,7 +96,7 @@ const customerCopy: Record<Locale, CustomerCopy> = {
     body: [
       "Merci pour votre intérêt pour mon travail. Votre demande d'achat a bien été reçue.",
       "Je vais vérifier l'exclusivité de la pièce et vous recontacter pour confirmer la disponibilité, le prix et la livraison.",
-      "Vous pouvez aussi poursuivre la conversation sur WhatsApp — je réponds personnellement.",
+      "Vous pouvez aussi poursuivre la conversation sur WhatsApp, je réponds personnellement.",
     ],
     closing: "Marcos Lucas",
   },
@@ -106,7 +106,7 @@ const customerCopy: Record<Locale, CustomerCopy> = {
     body: [
       "Vielen Dank für Ihr Interesse an meiner Arbeit. Ihre Kaufanfrage wurde erfolgreich empfangen.",
       "Ich prüfe die Exklusivität des Werks und melde mich bei Ihnen, um Verfügbarkeit, Preis und Versand zu bestätigen.",
-      "Sie können das Gespräch auch per WhatsApp fortsetzen — ich antworte persönlich.",
+      "Sie können das Gespräch auch per WhatsApp fortsetzen, ich antworte persönlich.",
     ],
     closing: "Marcos Lucas",
   },
