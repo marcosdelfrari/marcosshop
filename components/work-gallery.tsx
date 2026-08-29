@@ -46,7 +46,7 @@ export function WorkGallery({ images, title }: WorkGalleryProps) {
                 aria-selected={selected}
                 aria-label={`${title} — ${index + 1}`}
                 onClick={() => setActiveIndex(index)}
-                className={`relative aspect-square overflow-hidden transition-opacity ${
+                className={`relative aspect-square cursor-pointer overflow-hidden transition-opacity ${
                   selected
                     ? "opacity-100 ring-2 ring-foreground ring-offset-2 ring-offset-background"
                     : "opacity-50 hover:opacity-80"

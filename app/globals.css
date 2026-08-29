@@ -52,6 +52,22 @@ body {
   min-height: 100dvh;
 }
 
+@layer base {
+  a[href],
+  button:not(:disabled),
+  select,
+  summary,
+  label:has(select),
+  [role="button"]:not([aria-disabled="true"]),
+  [role="tab"] {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+
 ::selection {
   background: color-mix(in oklab, var(--foreground) 18%, transparent);
 }

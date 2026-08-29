@@ -110,7 +110,7 @@ export default async function WorkPage({
               work.available ? dict.works.inquire : dict.works.unavailable
             }
             disabled={!work.available}
-            triggerClassName="inline-flex h-12 w-full max-w-sm items-center justify-center gap-2 rounded-lg bg-accent px-6 text-sm font-medium text-accent-fg transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground disabled:cursor-not-allowed disabled:opacity-40 sm:w-auto sm:min-w-[14rem]"
+            triggerClassName="inline-flex h-12 w-full max-w-sm cursor-pointer items-center justify-center gap-2 rounded-lg bg-accent px-6 text-sm font-medium text-accent-fg transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground disabled:cursor-not-allowed disabled:opacity-40 sm:w-auto sm:min-w-[14rem]"
           />
         </div>
       </article>

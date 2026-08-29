@@ -24,7 +24,7 @@ export function SocialLinks({ className }: { className?: string }) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={label}
-            className="text-foreground transition-opacity hover:opacity-60"
+            className="text-foreground transition-opacity hover:opacity-60 cursor-pointer"
           >
             <Icon />
           </a>

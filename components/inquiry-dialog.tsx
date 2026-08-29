@@ -10,7 +10,7 @@ import type { Locale } from "@/lib/i18n";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 const defaultTriggerClassName =
-  "inline-flex h-12 min-w-[12rem] items-center justify-center gap-2 rounded-lg bg-accent px-6 text-sm font-medium text-accent-fg transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground disabled:cursor-not-allowed disabled:opacity-40";
+  "inline-flex h-12 min-w-[12rem] cursor-pointer items-center justify-center gap-2 rounded-lg bg-accent px-6 text-sm font-medium text-accent-fg transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground disabled:cursor-not-allowed disabled:opacity-40";
 
 type InquiryDialogProps = {
   lang: Locale;

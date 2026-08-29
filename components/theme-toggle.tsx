@@ -43,7 +43,7 @@ export function ThemeToggle({
     <button
       type="button"
       onClick={toggle}
-      className="inline-flex size-9 items-center justify-center rounded-lg text-foreground transition-colors hover:bg-foreground/5"
+      className="inline-flex size-9 cursor-pointer items-center justify-center rounded-lg text-foreground transition-colors hover:bg-foreground/5"
       aria-label={isDark ? lightLabel : darkLabel}
       suppressHydrationWarning
     >
