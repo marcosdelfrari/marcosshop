@@ -80,6 +80,16 @@ const customerCopy: Record<Locale, CustomerCopy> = {
     ],
     closing: "Marcos Lucas",
   },
+  pt: {
+    subject: "Seu pedido de consulta foi recebido",
+    greeting: "Olá",
+    body: [
+      "Obrigado pelo interesse no meu trabalho. Seu pedido de consulta foi recebido com sucesso.",
+      "Vou verificar a disponibilidade da peça e entrar em contato para confirmar valores, forma de pagamento e envio.",
+      "Você também pode continuar a conversa pelo WhatsApp — eu mesmo respondo.",
+    ],
+    closing: "Marcos Lucas",
+  },
   es: {
     subject: "Tu solicitud de compra fue recibida",
     greeting: "Hola",

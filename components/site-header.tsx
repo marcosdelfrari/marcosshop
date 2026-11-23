@@ -23,7 +23,7 @@ export function SiteHeader({
 
         <Link
           href={`/${lang}`}
-          className="absolute left-1/2 -translate-x-1/2 text-center text-base font-semibold tracking-tight sm:text-lg"
+          className="absolute left-1/2 -translate-x-1/2 whitespace-nowrap text-center text-base font-semibold tracking-tight sm:text-lg"
         >
           <span className="font-bold">{siteConfig.shortName}</span>{" "}
           <span className="font-normal text-muted">

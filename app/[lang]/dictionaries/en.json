@@ -15,6 +15,7 @@
     "titleStrong": "Few pieces.",
     "titleSoft": "Made by hand.",
     "tagline": "A small corner of the internet for things I've carved, printed and painted over the years. Work from life, not from a catalogue.",
+    "taglineShort": "Hand-carved prints and paintings from life.",
     "cta": "View works"
   },
   "works": {
@@ -57,6 +58,7 @@
     "kicker": "About",
     "body": "Brazilian artist and front-end engineer from Belo Horizonte. This shop is where I show the work life has left with me.",
     "homeIntro": "Hi, I'm {name}. This is my space to put the work I've made along the way: prints and paintings, by hand. Nothing grand, just mine.",
+    "homeIntroShort": "Hi, I'm {name}. My personal space for hand-made prints and paintings.",
     "readMore": "Learn more about me",
     "intro": "I'm {age}, Brazilian, from Belo Horizonte. Professionally I'm a front-end software engineer. You can find that side of me at {portfolio}.",
     "paragraphs": [
@@ -81,6 +83,8 @@
   },
   "positioning": {
     "title": "A personal space for the work life leaves behind",
+    "mobileSummary": "About this space & shipping",
+    "mobileNote": "Unique or small-batch pieces made by hand in Belo Horizonte, Brazil, shipped unframed. If something speaks to you, we talk directly on WhatsApp — I reply myself.",
     "paragraphs": [
       "This shop is simply where I put pieces I've made over the years: woodcuts, linoleum prints, paintings. Not a brand, not a career move. Just work that accumulated and deserves to exist somewhere.",
       "Everything here is made by hand, in small numbers or as unique pieces. If something speaks to you, we talk on WhatsApp. I answer myself.",

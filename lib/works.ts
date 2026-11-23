@@ -44,6 +44,11 @@ export const works: Work[] = [
         description:
           "In Japanese folklore, oni are demons, fierce figures that stand between the everyday world and the supernatural. This piece brings that presence into linoleum: carved by hand and printed with black ink, in the same spirit as traditional woodcut.\n\nEach line is cut into the block; each impression is pulled by hand. The deep blacks and sharp contrasts are meant to feel immediate, as if something from myth has just stepped onto the paper.\n\nUnique piece, 30 × 30 cm. Printed on archival paper. Ships unframed.",
       },
+      pt: {
+        title: "ONI",
+        description:
+          "No folclore japonês, os oni são demônios, figuras ferozes entre o mundo cotidiano e o sobrenatural. Esta peça traz essa presença para o linóleo: gravada à mão e impressa com tinta preta, no mesmo espírito da xilogravura tradicional.\n\nCada linha é entalhada na matriz; cada impressão é tirada manualmente. Os pretos profundos e os contrastes marcados buscam uma sensação imediata, como se algo do mito tivesse acabado de pisar no papel.\n\nPeça única, 30 × 30 cm. Impressa em papel de qualidade museológica. Enviada sem moldura.",
+      },
       es: {
         title: "ONI",
         description:
@@ -81,6 +86,11 @@ export const works: Work[] = [
         description:
           "A woodcut carved in wood and printed with black ink. The image draws on the contradictory mood of society: things that harm us and yet still evoke what feels pleasurable, vice dressed as temptation, pain mistaken for intensity.\n\nThe composition plays with that tension. What looks seductive from a distance reveals something sharper up close. It is a portrait of the double bind we live in: drawn to what hurts, calling it desire.\n\nUnique piece, 30 × 20 cm. Printed on archival paper. Ships unframed.",
       },
+      pt: {
+        title: "Demon",
+        description:
+          "Xilogravura entalhada na madeira e impressa com tinta preta. A imagem parte do sentimento contraditório da sociedade: coisas que nos fazem mal e ainda assim remetem ao prazeroso, o vício vestido de tentação, a dor confundida com intensidade.\n\nA composição joga com essa tensão. O que parece sedutor de longe revela algo mais cortante de perto. É um retrato do duplo vínculo em que vivemos: atraídos pelo que machuca, chamando isso de desejo.\n\nPeça única, 30 × 20 cm. Impressa em papel de qualidade museológica. Enviada sem moldura.",
+      },
       es: {
         title: "Demon",
         description:
@@ -112,6 +122,11 @@ export const works: Work[] = [
         title: "Curva",
         description:
           "The Happiness Curve can be read as the arc life often draws: we believe we have reached the top, only to fall again soon. Extremes make it feel as if we have hit a limit, yet a larger wave always follows.\n\nThe work maps that rhythm visually. Peaks and troughs repeat; each summit promises permanence, each descent feels like an ending. But the pattern continues, until, perhaps, we reach the ceiling of happiness itself, and the only fall left is final.\n\nUnique piece, 50 × 70 cm. Acrylic painting on canvas. Ships unframed.",
+      },
+      pt: {
+        title: "Curva",
+        description:
+          "A Curva da Felicidade pode ser lida como o arco que a vida muitas vezes desenha: acreditamos ter chegado ao topo para logo cair de novo. Os extremos dão a sensação de termos atingido um limite, mas sempre vem uma onda maior depois.\n\nA obra mapeia esse ritmo visualmente. Picos e vales se repetem; cada cume promete permanência, cada descida parece um fim. Mas o padrão continua, até que, talvez, alcancemos o teto da própria felicidade, e a única queda restante seja a última.\n\nPeça única, 50 × 70 cm. Pintura acrílica sobre tela. Enviada sem moldura.",
       },
       es: {
         title: "Curva",
@@ -147,7 +162,8 @@ export function getWork(slug: string): Work | undefined {
 }
 
 export function formatPrice(price: Work["price"], locale: Locale): string {
-  return new Intl.NumberFormat(locale, {
+  const intlLocale = locale === "pt" ? "pt-BR" : locale;
+  return new Intl.NumberFormat(intlLocale, {
     style: "currency",
     currency: price.currency,
     maximumFractionDigits: 0,

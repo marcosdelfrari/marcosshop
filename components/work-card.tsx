@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 import { InquiryDialog } from "@/components/inquiry-dialog";
+import { TrackedRoute } from "@/components/tracked-link";
 import type { Locale } from "@/lib/i18n";
 import { formatPrice, getWorkCover, type Work } from "@/lib/works";
 
@@ -19,7 +20,7 @@ export function WorkCard({
   const mediumLabel = dict.works.mediums[work.medium];
 
   return (
-    <article className="grid gap-6 border-b border-border-soft py-10 last:border-b-0 md:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] md:gap-10">
+    <article className="grid gap-4 border-b border-border-soft py-7 last:border-b-0 md:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] md:gap-10 md:py-10">
       <Link
         href={`/${lang}/works/${work.slug}`}
         className="group block w-full self-start"
@@ -34,29 +35,43 @@ export function WorkCard({
         />
       </Link>
 
-      <div className="flex flex-col justify-center gap-5">
-        <div className="space-y-2">
-          <div className="flex flex-wrap items-center gap-2 text-xs uppercase tracking-wide text-muted">
-            <span>{work.year}</span>
-            <span aria-hidden>·</span>
-            <span>{work.dimensions}</span>
-            <span aria-hidden>·</span>
-            <span>{work.unique ? dict.works.unique : dict.works.edition}</span>
+      <div className="flex flex-col justify-center gap-4 md:gap-5">
+        <div className="space-y-1.5 md:space-y-2">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="flex flex-wrap items-center gap-1.5 text-[11px] uppercase tracking-wide text-muted sm:gap-2 sm:text-xs">
+              <span>{work.year}</span>
+              <span aria-hidden>·</span>
+              <span>{work.dimensions}</span>
+              <span aria-hidden>·</span>
+              <span>
+                {work.unique ? dict.works.unique : dict.works.edition}
+              </span>
+            </div>
+            <span className="rounded-md bg-badge px-2 py-0.5 text-[11px] font-medium text-badge-fg md:hidden">
+              {mediumLabel}
+            </span>
           </div>
-          <h3 className="text-xl font-semibold tracking-tight sm:text-2xl">
-            <Link
-              href={`/${lang}/works/${work.slug}`}
-              className="hover:underline underline-offset-4"
-            >
-              {content.title}
-            </Link>
-          </h3>
-          <p className="max-w-md text-sm leading-relaxed text-muted sm:text-[0.95rem]">
+
+          <div className="flex items-baseline justify-between gap-3 md:block">
+            <h3 className="text-xl font-semibold tracking-tight sm:text-2xl">
+              <Link
+                href={`/${lang}/works/${work.slug}`}
+                className="underline-offset-4 hover:underline"
+              >
+                {content.title}
+              </Link>
+            </h3>
+            <span className="shrink-0 text-lg font-semibold tracking-tight md:hidden">
+              {formatPrice(work.price, lang)}
+            </span>
+          </div>
+
+          <p className="hidden max-w-md text-sm leading-relaxed text-muted md:block md:text-[0.95rem]">
             {content.description.split("\n\n")[0]}
           </p>
         </div>
 
-        <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2 text-sm">
+        <div className="hidden flex-wrap items-baseline gap-x-4 gap-y-2 text-sm md:flex">
           <span className="text-lg font-semibold tracking-tight">
             {formatPrice(work.price, lang)}
           </span>
@@ -65,13 +80,15 @@ export function WorkCard({
           </span>
         </div>
 
-        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <Link
+        <div className="grid grid-cols-2 gap-2.5 sm:flex sm:flex-row sm:flex-wrap sm:gap-3">
+          <TrackedRoute
             href={`/${lang}/works/${work.slug}`}
-            className="inline-flex h-12 items-center justify-center rounded-lg border border-border bg-background-elevated px-6 text-sm font-medium transition-colors hover:bg-foreground/5"
+            event="ver_obra"
+            botao="ver_obra"
+            className="inline-flex h-11 items-center justify-center rounded-lg border border-border bg-background-elevated px-3 text-[13px] font-medium transition-colors hover:bg-foreground/5 sm:h-12 sm:px-6 sm:text-sm"
           >
             {dict.works.viewWork}
-          </Link>
+          </TrackedRoute>
           <InquiryDialog
             lang={lang}
             workTitle={content.title}
@@ -81,6 +98,7 @@ export function WorkCard({
             triggerLabel={
               work.available ? dict.works.inquire : dict.works.unavailable
             }
+            triggerClassName="inline-flex h-11 w-full cursor-pointer items-center justify-center gap-1.5 rounded-lg bg-accent px-3 text-[13px] font-medium text-accent-fg transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-foreground disabled:cursor-not-allowed disabled:opacity-40 sm:h-12 sm:w-auto sm:min-w-[12rem] sm:gap-2 sm:px-6 sm:text-sm"
             disabled={!work.available}
           />
         </div>

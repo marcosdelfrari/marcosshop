@@ -18,6 +18,7 @@ export const SITE_URL = normalizeSiteUrl(siteConfig.url);
 
 const OG_LOCALE: Record<Locale, string> = {
   en: "en_GB",
+  pt: "pt_BR",
   es: "es_ES",
   fr: "fr_FR",
   de: "de_DE",
@@ -192,7 +193,7 @@ export function buildOrganizationJsonLd(locale: Locale): JsonLd {
     slogan: siteTaglines[locale],
     logo: absoluteUrl("/works/oni.webp"),
     sameAs: [siteConfig.portfolioUrl, siteConfig.social.instagram],
-    areaServed: ["European Union", "United Kingdom"],
+    areaServed: ["Brazil", "European Union", "United Kingdom"],
     knowsAbout: knowsAbout[locale],
     contactPoint: {
       "@type": "ContactPoint",
@@ -318,6 +319,7 @@ export function buildFaqJsonLd(
 
 const workGenres: Record<Locale, string> = {
   en: "Conceptual art",
+  pt: "Arte conceitual",
   es: "Arte conceptual",
   fr: "Art conceptuel",
   de: "Konzeptuelle Kunst",
@@ -325,6 +327,7 @@ const workGenres: Record<Locale, string> = {
 
 const siteDescriptions: Record<Locale, string> = {
   en: "Personal space for hand-made woodcuts, linoleum prints and acrylic paintings by Marcos Lucas. Work accumulated over the years. Unique pieces from Brazil, shipped across Europe.",
+  pt: "Espaço pessoal de xilogravuras, gravuras em linóleo e pinturas em acrílica feitas à mão por Marcos Lucas. Obras acumuladas ao longo dos anos em Belo Horizonte, enviadas para o Brasil e exterior.",
   es: "Espacio personal para xilografías, linóleos y pinturas hechas a mano por Marcos Lucas. Obra acumulada a lo largo de los años. Piezas únicas desde Brasil, con envío a Europa.",
   fr: "Espace personnel pour xylographies, linogravures et peintures faites main par Marcos Lucas. Œuvres accumulées au fil des années. Pièces uniques du Brésil, expédiées en Europe.",
   de: "Persönlicher Raum für handgemachte Holzschnitte, Linoldrucke und Acrylgemälde von Marcos Lucas. Werke, die über die Jahre entstanden sind. Einzelstücke aus Brasilien, Versand in Europa.",
@@ -332,6 +335,7 @@ const siteDescriptions: Record<Locale, string> = {
 
 const siteTaglines: Record<Locale, string> = {
   en: "Few pieces, made by hand. Work from life.",
+  pt: "Poucas peças, feitas à mão. Trabalho da vida.",
   es: "Pocas piezas, hechas a mano. Obra de la vida.",
   fr: "Peu de pièces, faites à la main. Œuvre de vie.",
   de: "Wenige Stücke, von Hand gemacht. Arbeit aus dem Leben.",
@@ -349,6 +353,18 @@ const siteKeywords: Record<Locale, string[]> = {
     "Brazilian artist",
     "contemporary printmaking",
     "buy art Europe",
+  ],
+  pt: [
+    "arte conceitual",
+    "arte independente",
+    "arte autoral",
+    "xilogravura original",
+    "gravura em linóleo",
+    "linoleogravura",
+    "pintura acrílica original",
+    "artista brasileiro",
+    "gravura contemporânea",
+    "comprar arte original",
   ],
   es: [
     "arte conceptual",
@@ -387,6 +403,7 @@ const siteKeywords: Record<Locale, string[]> = {
 
 const collectionTitles: Record<Locale, string> = {
   en: "Original prints & paintings from life",
+  pt: "Gravuras e pinturas originais da vida",
   es: "Grabados y pinturas originales de la vida",
   fr: "Estampes et peintures originales de la vie",
   de: "Originaldrucke & Gemälde aus dem Leben",
@@ -394,6 +411,7 @@ const collectionTitles: Record<Locale, string> = {
 
 const jobTitles: Record<Locale, string> = {
   en: "Visual artist & front-end engineer",
+  pt: "Artista visual e engenheiro front-end",
   es: "Artista visual e ingeniero front-end",
   fr: "Artiste visuel et ingénieur front-end",
   de: "Visueller Künstler & Front-end-Entwickler",
@@ -409,6 +427,16 @@ const knowsAbout: Record<Locale, string[]> = {
     "Acrylic painting",
     "Japanese folklore",
     "Brazilian contemporary art",
+  ],
+  pt: [
+    "Arte conceitual",
+    "Arte independente",
+    "Arte alternativa",
+    "Xilogravura",
+    "Gravura em linóleo",
+    "Pintura acrílica",
+    "Folclore japonês",
+    "Arte contemporânea brasileira",
   ],
   es: [
     "Arte conceptual",

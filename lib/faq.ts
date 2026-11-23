@@ -48,6 +48,47 @@ const homeFaqs: Record<Locale, FaqItem[]> = {
       answer: `Marcos Lucas is a Brazilian artist and front-end engineer from Belo Horizonte. This shop is his personal space to show prints and paintings he has made over the years. More about his professional work is at ${siteConfig.portfolioUrl}.`,
     },
   ],
+  pt: [
+    {
+      question: "Você envia obras originais para o Brasil e para o exterior?",
+      answer:
+        "Sim. Cada peça é enviada sem moldura a partir de Belo Horizonte para todo o Brasil, além de Reino Unido e União Europeia. O valor do frete e o prazo dependem do destino. Mande mensagem pelo WhatsApp antes da compra e o Marcos confirma as opções para o seu endereço.",
+    },
+    {
+      question: "As gravuras são originais ou reproduções?",
+      answer:
+        "Toda obra listada é uma peça original feita à mão. As xilogravuras e gravuras em linóleo são entalhadas e impressas manualmente; as pinturas são obras únicas em acrílica sobre tela. Não há reproduções digitais em tiragem aberta.",
+    },
+    {
+      question: "O que é esta loja?",
+      answer:
+        "Um espaço pessoal onde Marcos Lucas mostra trabalhos feitos ao longo dos anos: xilogravuras, gravuras em linóleo e pinturas. Não é uma galeria nem uma marca — apenas um lugar para reunir peças que foram se acumulando pelo caminho.",
+    },
+    {
+      question: "Como funciona a compra por aqui?",
+      answer:
+        "Você escolhe uma peça e conversa pelo WhatsApp. O próprio Marcos responde. Sem intermediários e sem checkout automático: disponibilidade, valor, forma de pagamento e envio são combinados diretamente na conversa.",
+    },
+    {
+      question: "Como faço para adquirir uma obra?",
+      answer:
+        "Escolha uma peça, toque em “Consultar” e preencha seu nome e contato. Você receberá uma confirmação por e-mail e poderá seguir direto no WhatsApp para alinhar disponibilidade, pagamento e entrega.",
+    },
+    {
+      question: "Quais técnicas artísticas o Marcos Lucas utiliza?",
+      answer:
+        "O acervo inclui xilogravura tradicional em madeira, gravura em linóleo entalhada à mão e pintura acrílica sobre tela. Cada etapa é manual: da matriz entalhada à impressão no papel ou pintura direta.",
+    },
+    {
+      question: "As obras são vendidas com moldura?",
+      answer:
+        "Não. As obras são enviadas sem moldura para viajarem com segurança e para que você possa emoldurar localmente de acordo com o seu espaço. As dimensões estão descritas na página de cada obra.",
+    },
+    {
+      question: "Quem é Marcos Lucas?",
+      answer: `Marcos Lucas é artista visual e engenheiro front-end brasileiro, de Belo Horizonte. Esta loja é seu espaço pessoal para mostrar gravuras e pinturas feitas ao longo dos anos. Mais sobre seu trabalho profissional em ${siteConfig.portfolioUrl}.`,
+    },
+  ],
   es: [
     {
       question: "¿Envías obras originales a Europa?",

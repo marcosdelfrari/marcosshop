@@ -15,6 +15,7 @@
     "titleStrong": "Peu de pièces.",
     "titleSoft": "Faites à la main.",
     "tagline": "Un coin d'internet pour ce que j'ai gravé, imprimé et peint au fil des années. Du travail de vie, pas d'un catalogue.",
+    "taglineShort": "Estampes gravées main et peintures personnelles.",
     "cta": "Voir les œuvres"
   },
   "works": {
@@ -57,6 +58,7 @@
     "kicker": "À propos",
     "body": "Artiste brésilien et ingénieur front-end de Belo Horizonte. Cette boutique est l'endroit où je montre l'œuvre que la vie m'a laissée.",
     "homeIntro": "Bonjour, je suis {name}. C'est mon espace pour exposer ce que j'ai fait en chemin: estampes et peintures, à la main. Rien de grandiose, juste les miennes.",
+    "homeIntroShort": "Bonjour, je suis {name}. Mon espace personnel d'estampes et peintures faites main.",
     "readMore": "En savoir plus sur moi",
     "intro": "J'ai {age} ans, je suis brésilien et originaire de Belo Horizonte. Professionnellement, je suis ingénieur logiciel front-end. Cette part de moi est sur {portfolio}.",
     "paragraphs": [
@@ -81,6 +83,8 @@
   },
   "positioning": {
     "title": "Un espace personnel pour l'œuvre que la vie laisse",
+    "mobileSummary": "À propos et livraison",
+    "mobileNote": "Pièces uniques ou en petite série faites à la main à Belo Horizonte, au Brésil, expédiées sans cadre. Si une œuvre vous parle, on échange sur WhatsApp — je réponds moi-même.",
     "paragraphs": [
       "Cette boutique, c'est simplement l'endroit où je mets des pièces que j'ai faites au fil des années: xylographies, linogravures, peintures. Pas une marque, pas un plan de carrière. Juste du travail accumulé qui mérite d'exister quelque part.",
       "Tout ici est fait à la main, en petit nombre ou en pièces uniques. Si quelque chose vous parle, on en parle sur WhatsApp. Je réponds moi-même.",

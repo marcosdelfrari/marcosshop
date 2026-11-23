@@ -15,6 +15,7 @@
     "titleStrong": "Pocas piezas.",
     "titleSoft": "Hechas a mano.",
     "tagline": "Un rincón de internet para lo que he tallado, impreso y pintado con los años. Obra de la vida, no de un catálogo.",
+    "taglineShort": "Xilografías, linóleos y pinturas de autor.",
     "cta": "Ver obras"
   },
   "works": {
@@ -57,6 +58,7 @@
     "kicker": "Sobre mí",
     "body": "Artista brasileño e ingeniero front-end de Belo Horizonte. Esta tienda es donde muestro la obra que la vida me fue dejando.",
     "homeIntro": "Hola, soy {name}. Este es mi espacio para exponer lo que he hecho en el camino: grabados y pinturas, a mano. Nada grandioso, solo mío.",
+    "homeIntroShort": "Hola, soy {name}. Mi espacio personal para grabados y pinturas hechos a mano.",
     "readMore": "Saber más sobre mí",
     "intro": "Tengo {age} años, soy brasileño y natural de Belo Horizonte. Profesionalmente soy ingeniero de software front-end. Esa parte de mí está en {portfolio}.",
     "paragraphs": [
@@ -81,6 +83,8 @@
   },
   "positioning": {
     "title": "Un espacio personal para la obra que deja la vida",
+    "mobileSummary": "Sobre este espacio y envíos",
+    "mobileNote": "Piezas únicas o en pequeña tirada hechas a mano en Belo Horizonte, Brasil, enviadas sin marco. Si algo te habla, conversamos directo por WhatsApp — respondo yo mismo.",
     "paragraphs": [
       "Esta tienda es simplemente donde pongo piezas que he hecho a lo largo de los años: xilografías, linóleos, pinturas. No es una marca ni un plan de carrera. Solo trabajo que se acumuló y merece existir en algún lugar.",
       "Todo aquí está hecho a mano, en pequeña cantidad o como piezas únicas. Si algo te habla, hablamos por WhatsApp. Respondo yo.",

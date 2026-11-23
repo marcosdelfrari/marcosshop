@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Marcos Lucas · Gravuras e Pinturas Originais",
+    "description": "Espaço pessoal para xilogravuras, gravuras em linóleo e pinturas em acrílica feitas à mão. Obras acumuladas ao longo dos anos em Belo Horizonte, enviadas para o Brasil e exterior."
+  },
+  "nav": {
+    "works": "Obras",
+    "about": "Quem sou",
+    "contact": "Contato",
+    "privacy": "Privacidade"
+  },
+  "hero": {
+    "intro": "Oi, meu nome é {name}.",
+    "kicker": "Meu trabalho",
+    "titleStrong": "Poucas peças.",
+    "titleSoft": "Feitas à mão.",
+    "tagline": "Um canto na internet para o que gravei, imprimi e pintei ao longo dos anos. Trabalho da vida, não de catálogo.",
+    "taglineShort": "Xilogravuras, linóleos e pinturas autorais.",
+    "cta": "Ver obras"
+  },
+  "works": {
+    "title": "Obras",
+    "viewAll": "Ver todas as obras",
+    "viewWork": "Ver obra",
+    "inquire": "Consultar",
+    "unique": "Única",
+    "edition": "Tiragem",
+    "unavailable": "Indisponível",
+    "medium": "Técnica",
+    "price": "Preço",
+    "mediums": {
+      "woodcut": "Xilogravura",
+      "linoleum": "Linóleo",
+      "handmade": "Feito à mão",
+      "acrylic": "Acrílica sobre tela"
+    }
+  },
+  "inquiry": {
+    "title": "Consultar sobre esta obra",
+    "subtitle": "Deixe seus dados. Você receberá uma confirmação por e-mail e continuará pelo WhatsApp para combinar disponibilidade e envio.",
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "submit": "Continuar",
+    "submitting": "Enviando…",
+    "submitError": "Não foi possível enviar sua solicitação. Tente novamente.",
+    "captchaError": "Falha na verificação de segurança. Tente novamente.",
+    "recaptchaNotice": "Este formulário é protegido pelo reCAPTCHA e aplicam-se a",
+    "recaptchaPrivacy": "Política de Privacidade",
+    "recaptchaAnd": "e os",
+    "recaptchaTerms": "Termos de Serviço",
+    "cancel": "Cancelar",
+    "required": "Campo obrigatório",
+    "privacyNotice": "Ao continuar, seus dados são enviados por e-mail como pedido de interesse e você pode seguir pelo WhatsApp. Veja nossa"
+  },
+  "about": {
+    "title": "Quem sou",
+    "kicker": "Sobre",
+    "body": "Artista brasileiro e engenheiro front-end de Belo Horizonte. Esta loja é onde mostro o trabalho que a vida foi deixando comigo.",
+    "homeIntro": "Oi, eu sou o {name}. Este é o meu espaço para colocar o que fui fazendo pelo caminho: gravuras e pinturas, à mão. Nada grandioso, só meu.",
+    "homeIntroShort": "Oi, sou o {name}. Meu espaço pessoal para gravuras e pinturas feitas à mão.",
+    "readMore": "Saber mais sobre mim",
+    "intro": "Tenho {age} anos, sou brasileiro, de Belo Horizonte. Profissionalmente sou engenheiro de software front-end. Você encontra esse lado em {portfolio}.",
+    "paragraphs": [
+      "Este espaço, as gravuras e as peças feitas à mão, é mais um jeito lúdico de viver. Não é uma segunda carreira, só curiosidade e ofício.",
+      "Comecei com design e desenvolvimento web aos nove anos. Ao longo do tempo criei trabalhos autorais em diferentes formatos, participei de oficinas de teatro na Escola Livre de Artes Arena da Cultura e segui curioso pelas ciências sociais e pela produção cultural.",
+      "Gosto de aprender e explorar o que a vida coloca na minha frente. Tenho meu próprio jeito de enxergar o mundo e, às vezes, isso acaba no papel."
+    ],
+    "contact": "Prefere conversar direto? Me chame no WhatsApp. Eu mesmo respondo."
+  },
+  "footer": {
+    "credit": ""
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "locale": {
+    "label": "Idioma"
+  },
+  "faq": {
+    "title": "Perguntas frequentes"
+  },
+  "positioning": {
+    "title": "Um espaço pessoal para o trabalho que a vida deixa",
+    "mobileSummary": "Sobre este espaço e envios",
+    "mobileNote": "Peças únicas ou em pequena tiragem, feitas à mão em Belo Horizonte e enviadas sem moldura. Se alguma obra falar com você, conversamos direto no WhatsApp — eu mesmo respondo.",
+    "paragraphs": [
+      "Esta loja é simplesmente onde coloco peças que fiz ao longo dos anos: xilogravuras, linóleos, pinturas. Não é uma marca, nem um passo de carreira. Só trabalho que se acumulou e merece existir em algum lugar.",
+      "Tudo aqui é feito à mão, em pequena quantidade ou como peça única. Se algo falar com você, conversamos pelo WhatsApp. Eu mesmo respondo.",
+      "Moro em Belo Horizonte, Brasil. As peças são enviadas sem moldura para o Brasil, Europa e outros lugares. Fique à vontade para navegar, perguntar ou só olhar."
+    ]
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "summary": "Esta política explica como Marcos Lucas trata dados pessoais quando você consulta sobre uma obra nesta loja, em conformidade com a LGPD (Brasil) e o GDPR (Reino Unido e União Europeia).",
+    "updated": "Última atualização: agosto de 2026",
+    "contact": "Dúvidas sobre seus dados? Fale diretamente com Marcos pelo WhatsApp.",
+    "sections": [
+      {
+        "title": "Quem é o responsável",
+        "paragraphs": [
+          "O controlador de dados deste site é Marcos Lucas (artista independente), responsável pela loja em shop.marcosdelfrari.com. Para solicitações sobre privacidade, utilize o número de WhatsApp indicado na seção Contato."
+        ]
+      },
+      {
+        "title": "Quais dados coletamos",
+        "paragraphs": [
+          "Ao usar o formulário de consulta em uma obra, você informa seu nome, e-mail e telefone. Todos os três campos são necessários para continuar o atendimento.",
+          "A preferência de tema (claro/escuro) pode ser salva apenas no armazenamento local do seu navegador, sem criação de conta de usuário."
+        ]
+      },
+      {
+        "title": "Como os dados da consulta são usados",
+        "paragraphs": [
+          "Seus dados não ficam armazenados em banco de dados público neste site. Ao enviar o formulário, um aviso de pedido é encaminhado por e-mail e uma mensagem pré-preenchida é aberta no WhatsApp para falar diretamente com Marcos.",
+          "Marcos utiliza essas informações exclusivamente para responder sobre disponibilidade, valor, envio para o seu endereço e forma de pagamento."
+        ]
+      },
+      {
+        "title": "Base legal (LGPD, Reino Unido e UE)",
+        "paragraphs": [
+          "O tratamento baseia-se no seu consentimento ao enviar o formulário e abrir o WhatsApp, bem como no legítimo interesse de Marcos em responder a consultas de compra.",
+          "Informar seus dados é voluntário, mas sem eles não é possível responder pelo canal de atendimento previsto."
+        ]
+      },
+      {
+        "title": "Terceiros e transferência internacional",
+        "paragraphs": [
+          "O WhatsApp (Meta Platforms) e o serviço de envio de e-mail processam a mensagem enviada conforme suas próprias políticas de privacidade, o que pode envolver servidores fora do seu país.",
+          "Marcos não vende nem compartilha seus dados com terceiros para fins de marketing."
+        ]
+      },
+      {
+        "title": "Retenção",
+        "paragraphs": [
+          "As mensagens mantidas no WhatsApp ou nos registros pessoais de Marcos são guardadas apenas pelo tempo necessário para atender sua consulta, concluir uma eventual venda ou cumprir obrigações legais."
+        ]
+      },
+      {
+        "title": "Seus direitos",
+        "paragraphs": [
+          "Nos termos da LGPD (Brasil) e do GDPR (Reino Unido e UE/EEE), você tem direito de acessar, corrigir, excluir, restringir ou se opor ao tratamento dos seus dados pessoais, além da portabilidade quando aplicável.",
+          "Você pode revogar seu consentimento a qualquer momento enviando mensagem para Marcos no WhatsApp, bem como recorrer à autoridade de proteção de dados competente (como a ANPD no Brasil)."
+        ]
+      }
+    ]
+  }
+}

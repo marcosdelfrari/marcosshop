@@ -52,15 +52,25 @@ export function buildWebMcpInitScript(lang: Locale): string {
   }
 
   function buildWhatsAppUrl(payload) {
-    var lines = [
-      'Hello! I\\'m interested in "' + payload.workTitle + '".',
-      "",
-      "Name: " + payload.name,
-      "Email: " + payload.email,
-      "Phone: " + payload.phone,
-      "Work: " + payload.workSlug,
-      "Language: " + payload.locale
-    ];
+    var lines = payload.locale === "pt"
+      ? [
+          'Olá! Tenho interesse na obra "' + payload.workTitle + '".',
+          "",
+          "Nome: " + payload.name,
+          "E-mail: " + payload.email,
+          "Telefone: " + payload.phone,
+          "Obra: " + payload.workSlug,
+          "Idioma: " + payload.locale
+        ]
+      : [
+          'Hello! I\\'m interested in "' + payload.workTitle + '".',
+          "",
+          "Name: " + payload.name,
+          "Email: " + payload.email,
+          "Phone: " + payload.phone,
+          "Work: " + payload.workSlug,
+          "Language: " + payload.locale
+        ];
     return "https://wa.me/" + catalog.whatsappNumber + "?text=" + encodeURIComponent(lines.join("\\n"));
   }
 

@@ -63,7 +63,12 @@ export default async function LangLayout({
   const dict = await getDictionary(lang as Locale);
 
   return (
-    <html lang={lang} className={`${outfit.variable} h-full antialiased`} suppressHydrationWarning>
+    <html
+      lang={lang}
+      data-scroll-behavior="smooth"
+      className={`${outfit.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <script
@@ -71,13 +76,17 @@ export default async function LangLayout({
             __html: buildWebMcpInitScript(lang as Locale),
           }}
         />
+        <script
+          async
+          src="http://localhost:4000/tracker.js?key=lt_f100d1325a1d6060fe9d2f5b8b9c998d"
+        />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM discovery" />
         <link rel="ai-catalog" href={AI_CATALOG_URL} />
       </head>
       <body className="flex min-h-dvh flex-col font-sans text-foreground">
         <GoogleAnalytics />
         <SiteHeader lang={lang as Locale} dict={dict} />
-        <main className="mx-auto w-full max-w-6xl flex-1 px-5 py-10 sm:px-8 lg:px-12 lg:py-14">
+        <main className="mx-auto w-full max-w-6xl flex-1 px-5 py-7 sm:px-8 sm:py-10 lg:px-12 lg:py-14">
           {children}
         </main>
         <SiteFooter lang={lang as Locale} dict={dict} />

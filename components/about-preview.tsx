@@ -12,22 +12,32 @@ import { siteConfig } from "@/lib/site";
 export function AboutPreview({
   lang,
   dict,
+  className = "",
 }: {
   lang: Locale;
   dict: Dictionary;
+  className?: string;
 }) {
+  const age = getAge(profile.birthdate);
+
   return (
-    <section className="border-t border-border-soft pt-16">
-      <div className="mx-auto flex max-w-md flex-col items-center gap-6 text-center">
+    <section className={`pt-4 md:border-t md:border-border-soft md:pt-16 ${className}`.trim()}>
+      <div className="mx-auto flex max-w-md flex-col items-center gap-4 text-center sm:gap-6">
         <FadeUp inView>
-          <AvatarVideo />
+          <AvatarVideo className="h-[132px] w-[132px] sm:h-[180px] sm:w-[180px]" />
         </FadeUp>
 
         <FadeUp inView delay={0.08}>
-          <p className="text-base leading-relaxed text-foreground/90 sm:text-[1.05rem]">
+          <p className="text-sm leading-relaxed text-foreground/90 sm:hidden">
+            {renderBioText(dict.about.homeIntroShort, {
+              name: siteConfig.shortName,
+              age,
+            })}
+          </p>
+          <p className="hidden text-base leading-relaxed text-foreground/90 sm:block sm:text-[1.05rem]">
             {renderBioText(dict.about.homeIntro, {
               name: siteConfig.shortName,
-              age: getAge(profile.birthdate),
+              age,
             })}
           </p>
         </FadeUp>

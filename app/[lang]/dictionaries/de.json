@@ -15,6 +15,7 @@
     "titleStrong": "Wenige Stücke.",
     "titleSoft": "Von Hand gemacht.",
     "tagline": "Eine kleine Ecke im Internet für das, was ich über die Jahre geschnitzt, gedruckt und gemalt habe. Arbeit aus dem Leben, nicht aus einem Katalog.",
+    "taglineShort": "Handgeschnitzte Drucke und Gemälde aus dem Leben.",
     "cta": "Werke ansehen"
   },
   "works": {
@@ -57,6 +58,7 @@
     "kicker": "Profil",
     "body": "Brasilianischer Künstler und Front-end-Entwickler aus Belo Horizonte. Dieser Shop ist der Ort, an dem ich die Werke zeige, die das Leben mir hinterlassen hat.",
     "homeIntro": "Hallo, ich bin {name}. Das ist mein Raum, um die Arbeit zu zeigen, die ich unterwegs gemacht habe: Drucke und Gemälde, von Hand. Nichts Großes, nur meins.",
+    "homeIntroShort": "Hallo, ich bin {name}. Mein persönlicher Raum für handgemachte Drucke und Gemälde.",
     "readMore": "Mehr über mich",
     "intro": "Ich bin {age}, Brasilianer aus Belo Horizonte. Beruflich bin ich Front-end-Softwareentwickler. Diese Seite von mir finden Sie unter {portfolio}.",
     "paragraphs": [
@@ -81,6 +83,8 @@
   },
   "positioning": {
     "title": "Ein persönlicher Raum für die Arbeit, die das Leben hinterlässt",
+    "mobileSummary": "Über diesen Raum & Versand",
+    "mobileNote": "Einzelstücke oder kleine Auflagen, handgemacht in Belo Horizonte, Brasilien, ungerahmt versendet. Wenn Sie etwas anspricht, schreiben wir direkt auf WhatsApp — ich antworte selbst.",
     "paragraphs": [
       "Dieser Shop ist einfach der Ort, an dem ich Stücke unterbringe, die ich über die Jahre gemacht habe: Holzschnitte, Linoldrucke, Gemälde. Keine Marke, kein Karriereschritt. Nur Arbeit, die sich angesammelt hat und irgendwo existieren darf.",
       "Alles hier ist von Hand gemacht, in kleiner Zahl oder als Einzelstücke. Wenn etwas Sie anspricht, sprechen wir auf WhatsApp. Ich antworte selbst.",

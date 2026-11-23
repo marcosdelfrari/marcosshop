@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import { JsonLd } from "@/components/json-ld";
+import { TrackedLink } from "@/components/tracked-link";
 import { isLocale, type Locale } from "@/lib/i18n";
 import {
   buildBreadcrumbJsonLd,
@@ -73,12 +74,14 @@ export default async function PrivacyPage({
 
         <footer className="border-t border-border-soft pt-6 text-sm text-muted">
           <p>{dict.privacy.contact}</p>
-          <a
+          <TrackedLink
             href={`https://wa.me/${siteConfig.whatsappNumber}`}
+            event="contato"
+            botao="whatsapp"
             className="mt-2 inline-flex font-medium text-foreground underline underline-offset-2"
           >
             {dict.nav.contact}
-          </a>
+          </TrackedLink>
         </footer>
       </article>
     </>

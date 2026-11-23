@@ -7,6 +7,7 @@ import { useId, useRef, useState } from "react";
 
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 import type { Locale } from "@/lib/i18n";
+import { trackCarrinho, trackCompra, trackWhatsApp } from "@/lib/lotus";
 import { executeRecaptcha, isRecaptchaEnabled, preloadRecaptcha } from "@/lib/recaptcha-client";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
@@ -45,6 +46,7 @@ export function InquiryDialog({
   const [error, setError] = useState<string | null>(null);
 
   function open() {
+    trackCarrinho();
     setError(null);
     preloadRecaptcha();
     dialogRef.current?.showModal();
@@ -63,6 +65,7 @@ export function InquiryDialog({
 
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    trackCompra();
     setError(null);
     setSubmitting(true);
 
@@ -99,6 +102,7 @@ export function InquiryDialog({
       }
 
       const url = buildWhatsAppUrl(payload);
+      trackWhatsApp();
       window.open(url, "_blank", "noopener,noreferrer");
       setName("");
       setEmail("");
